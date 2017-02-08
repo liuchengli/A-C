@@ -24,67 +24,24 @@
 #import "NotificationCenterString.h"
 #import "NSString+HexColors.h"
 
-
+/* 动画动效 */
 #import "WarnShakeLabelController.h"
+#import "GlowLabelController.h"
+#import "FlowLightLabelController.h"
+#import "LabelScaleViewController.h"
+#import "DrawMarqueeViewController.h"
+#import "MixedColorProgressViewController.h"
 
 
-#import "ButtonPressViewController.h"
-#import "PopStrokeController.h"
-//#import "CAShapeLayerPathController.h"
-//#import "TransformFadeViewController.h"
-//#import "CAGradientViewController.h"
-//#import "PopNumberController.h"
-//#import "CircleAnimationViewController.h"
-//#import "ScrollImageViewController.h"
-//#import "ScrollBlurImageViewController.h"
-//#import "TableViewTapAnimationController.h"
-//#import "POPSpringParameterController.h"
-//#import "HeaderViewTapAnimationController.h"
-//#import "CountDownTimerController.h"
-//#import "ClockViewController.h"
-//#import "DrawWaveViewController.h"
-//#import "LabelScaleViewController.h"
-//#import "ShimmerController.h"
-//#import "EmitterSnowController.h"
-//#import "ScratchImageViewController.h"
-//#import "LiveImageViewController.h"
-//#import "SDWebImageController.h"
-//#import "AlertViewController.h"
-//#import "WaterfallLayoutController.h"
-//#import "MixedColorProgressViewController.h"
-//#import "PageFlipEffectController.h"
-//#import "CATransform3DM34Controller.h"
-//#import "PressAnimationButtonController.h"
-//#import "BezierPathViewController.h"
-//#import "MusicBarAnimationController.h"
-//#import "ColorProgressViewController.h"
-//#import "SpringEffectController.h"
-//#import "CASpringAnimationController.h"
-//#import "AdditiveAnimationController.h"
-//#import "TableViewLoadDataController.h"
-//#import "MotionEffectViewController.h"
-//#import "GifPictureController.h"
-//#import "SCViewShakerController.h"
-//#import "ScrollViewAnimationController.h"
-//#import "TapCellAnimationController.h"
-//#import "TextKitLoadImageController.h"
-//#import "ReplicatorLineViewController.h"
-//#import "DrawMarqueeViewController.h"
-//#import "LazyFadeInViewController.h"
-//#import "OffsetCellViewController.h"
-//#import "SystemFontInfoController.h"
-//#import "iCarouselViewController.h"
-//#import "GridFlowLayoutViewController.h"
-//#import "InfiniteLoopViewController.h"
-//#import "BaseControlViewController.h"
-//#import "SpringScaleViewController.h"
-//#import "TapPathDrawViewController.h"
-//#import "QRCodeViewController.h"
-//#import "MaskShapeViewController.h"
-//#import "WaterWaveViewController.h"
-//#import "IrregularGridViewController.h"
-//#import "MixCellsViewController.h"
-//#import "ScrollCarouselViewController.h"
+
+
+/* 金融图表 */
+
+
+
+
+
+
 
 @interface AnimationsListViewController () <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate, DefaultNotificationCenterDelegate>
 
@@ -94,6 +51,8 @@
 @property (nonatomic, strong) UITableView               *tableView;
 @property (nonatomic)         BOOL                       tableViewLoadData;
 
+@property (nonatomic, strong) NSArray  *AnimArray;
+@property (nonatomic, strong) NSArray  *ChartArray;
 @property (nonatomic, strong) NSMutableArray  <CellDataAdapter *> *items;
 
 @end
@@ -260,16 +219,31 @@
 
 - (void)configureDataSource {
     
-    NSArray *array = @[[Item itemWithName:@"POP-按钮动画" object:[ButtonPressViewController class]],
-                       [Item itemWithName:@"POP-Stroke动画" object:[PopStrokeController class]],
-                       [Item itemWithName:@"晃动警告文字" object:[WarnShakeLabelController class]]
+    // 动画数据
+    self.AnimArray = @[[Item itemWithName:@"晃动警告文字" object:[WarnShakeLabelController class]],
+                       [Item itemWithName:@"辉光文字" object:[GlowLabelController class]],
+                       [Item itemWithName:@"闪亮文字" object:[FlowLightLabelController class]],
+                       [Item itemWithName:@"复合缩放文字" object:[LabelScaleViewController class]],
+                       [Item itemWithName:@"跑马灯文字" object:[DrawMarqueeViewController class]],
+                       [Item itemWithName:@"底色混色文字" object:[MixedColorProgressViewController class]]
                        ];
+    
+    
+    
+    // 图表数据
+    self.ChartArray = @[[Item itemWithName:@"晃动警告文字" object:[WarnShakeLabelController class]],
+                        [Item itemWithName:@"辉光文字" object:[GlowLabelController class]],
+                        
+                        
+                        ];
+    
+    
     
     self.items = [NSMutableArray array];
     
-    for (int i = 0; i < array.count; i++) {
+    for (int i = 0; i < self.AnimArray.count; i++) {
     
-        Item *item = array[i];
+        Item *item = self.AnimArray[i];
         item.index = i + 1;
         [item createAttributedString];
 
@@ -316,7 +290,43 @@
         self.selectedIndex = index;
         
         self.segControl.selectedSegmentIndex = index;
-      
+        
+        
+        
+        
+        [self.items removeAllObjects];
+        
+        
+        if (index ==0) {
+            
+            for (int i = 0; i < self.AnimArray.count; i++) {
+                
+                Item *item = self.AnimArray[i];
+                item.index = i + 1;
+                [item createAttributedString];
+                
+                [self.items addObject:[ListItemCell dataAdapterWithCellReuseIdentifier:nil data:item cellHeight:0 type:0]];
+            }
+
+        }
+        
+        
+        
+        
+        if (index == 1) {
+            
+            for (int i = 0; i < self.ChartArray.count; i++) {
+                
+                Item *item = self.ChartArray[i];
+                item.index = i + 1;
+                [item createAttributedString];
+                
+                [self.items addObject:[ListItemCell dataAdapterWithCellReuseIdentifier:nil data:item cellHeight:0 type:0]];
+            }
+
+        }
+        
+        [self.tableView reloadData];
     }
 
     

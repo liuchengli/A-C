@@ -50,13 +50,14 @@
     
     
     UIButton  *button           = [[UIButton alloc] initWithFrame:CGRectMake(Width-70, 30, 60, 25)];
-    button.layer.cornerRadius   = 4.f;
+    button.layer.cornerRadius   = 3.f;
     button.layer.masksToBounds  = YES;
     button.layer.borderWidth    = 0.5f;
     button.layer.borderColor    = [[UIColor grayColor] colorWithAlphaComponent:0.25f].CGColor;
+    button.titleLabel.font      = [UIFont HYQiHeiWithFontSize:12];
     [button setTitle:@"重现" forState:UIControlStateNormal];
     [button setBackgroundColor:[UIColor whiteColor]];
-    [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(showPasswordError) forControlEvents:UIControlEventTouchUpInside];
     [self.titleView addSubview:button];
 

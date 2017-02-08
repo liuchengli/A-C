@@ -157,6 +157,14 @@
 		5A3974561E49C84E0096A27F /* NSString+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974541E49C84E0096A27F /* NSString+HexColors.m */; };
 		5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */; };
 		5AC991A71E4AC967008B52AC /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A61E4AC967008B52AC /* CALayer+Anim.m */; };
+		5AC991AB1E4B03D3008B52AC /* GlowLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991AA1E4B03D3008B52AC /* GlowLabelController.m */; };
+		5AC991AE1E4B059C008B52AC /* FlowLightLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991AD1E4B059C008B52AC /* FlowLightLabelController.m */; };
+		5AC991B11E4B0678008B52AC /* GlowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991B01E4B0678008B52AC /* GlowLabel.m */; };
+		5AC991B71E4B0E0C008B52AC /* LabelScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991B41E4B0E0C008B52AC /* LabelScaleViewController.m */; };
+		5AC991B81E4B0E0C008B52AC /* ScaleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991B61E4B0E0C008B52AC /* ScaleLabel.m */; };
+		5AC991BC1E4B0FF9008B52AC /* MixedColorProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991BB1E4B0FF9008B52AC /* MixedColorProgressViewController.m */; };
+		5AC991C21E4B106D008B52AC /* DrawMarqueeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991BF1E4B106D008B52AC /* DrawMarqueeViewController.m */; };
+		5AC991C31E4B106D008B52AC /* DrawMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -481,6 +489,22 @@
 		5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarnShakeLabelController.m; sourceTree = "<group>"; };
 		5AC991A51E4AC967008B52AC /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
 		5AC991A61E4AC967008B52AC /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		5AC991A91E4B03D3008B52AC /* GlowLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowLabelController.h; sourceTree = "<group>"; };
+		5AC991AA1E4B03D3008B52AC /* GlowLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowLabelController.m; sourceTree = "<group>"; };
+		5AC991AC1E4B059C008B52AC /* FlowLightLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLightLabelController.h; sourceTree = "<group>"; };
+		5AC991AD1E4B059C008B52AC /* FlowLightLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLightLabelController.m; sourceTree = "<group>"; };
+		5AC991AF1E4B0678008B52AC /* GlowLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowLabel.h; sourceTree = "<group>"; };
+		5AC991B01E4B0678008B52AC /* GlowLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowLabel.m; sourceTree = "<group>"; };
+		5AC991B31E4B0E0C008B52AC /* LabelScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelScaleViewController.h; sourceTree = "<group>"; };
+		5AC991B41E4B0E0C008B52AC /* LabelScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelScaleViewController.m; sourceTree = "<group>"; };
+		5AC991B51E4B0E0C008B52AC /* ScaleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleLabel.h; sourceTree = "<group>"; };
+		5AC991B61E4B0E0C008B52AC /* ScaleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleLabel.m; sourceTree = "<group>"; };
+		5AC991BA1E4B0FF9008B52AC /* MixedColorProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedColorProgressViewController.h; sourceTree = "<group>"; };
+		5AC991BB1E4B0FF9008B52AC /* MixedColorProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedColorProgressViewController.m; sourceTree = "<group>"; };
+		5AC991BE1E4B106D008B52AC /* DrawMarqueeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawMarqueeViewController.h; sourceTree = "<group>"; };
+		5AC991BF1E4B106D008B52AC /* DrawMarqueeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMarqueeViewController.m; sourceTree = "<group>"; };
+		5AC991C01E4B106D008B52AC /* DrawMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawMarqueeView.h; sourceTree = "<group>"; };
+		5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMarqueeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -608,6 +632,9 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5AC991BD1E4B101E008B52AC /* AutoRollLabel */,
+				5AC991B91E4B0FED008B52AC /* MixedColorProgress */,
+				5AC991B21E4B0DCB008B52AC /* ScaleLabel */,
 				5AC991A01E4AC1B6008B52AC /* FlowLightLabel */,
 				5AC9919F1E4AC035008B52AC /* GlowLabel */,
 				5AC9919E1E4ABF87008B52AC /* WarnShakeLabel */,
@@ -1345,6 +1372,10 @@
 		5AC9919F1E4AC035008B52AC /* GlowLabel */ = {
 			isa = PBXGroup;
 			children = (
+				5AC991A91E4B03D3008B52AC /* GlowLabelController.h */,
+				5AC991AA1E4B03D3008B52AC /* GlowLabelController.m */,
+				5AC991AF1E4B0678008B52AC /* GlowLabel.h */,
+				5AC991B01E4B0678008B52AC /* GlowLabel.m */,
 			);
 			name = GlowLabel;
 			sourceTree = "<group>";
@@ -1352,6 +1383,8 @@
 		5AC991A01E4AC1B6008B52AC /* FlowLightLabel */ = {
 			isa = PBXGroup;
 			children = (
+				5AC991AC1E4B059C008B52AC /* FlowLightLabelController.h */,
+				5AC991AD1E4B059C008B52AC /* FlowLightLabelController.m */,
 			);
 			name = FlowLightLabel;
 			sourceTree = "<group>";
@@ -1363,6 +1396,37 @@
 				5AC991A61E4AC967008B52AC /* CALayer+Anim.m */,
 			);
 			name = shakeLayerAnim;
+			sourceTree = "<group>";
+		};
+		5AC991B21E4B0DCB008B52AC /* ScaleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5AC991B31E4B0E0C008B52AC /* LabelScaleViewController.h */,
+				5AC991B41E4B0E0C008B52AC /* LabelScaleViewController.m */,
+				5AC991B51E4B0E0C008B52AC /* ScaleLabel.h */,
+				5AC991B61E4B0E0C008B52AC /* ScaleLabel.m */,
+			);
+			name = ScaleLabel;
+			sourceTree = "<group>";
+		};
+		5AC991B91E4B0FED008B52AC /* MixedColorProgress */ = {
+			isa = PBXGroup;
+			children = (
+				5AC991BA1E4B0FF9008B52AC /* MixedColorProgressViewController.h */,
+				5AC991BB1E4B0FF9008B52AC /* MixedColorProgressViewController.m */,
+			);
+			name = MixedColorProgress;
+			sourceTree = "<group>";
+		};
+		5AC991BD1E4B101E008B52AC /* AutoRollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5AC991BE1E4B106D008B52AC /* DrawMarqueeViewController.h */,
+				5AC991BF1E4B106D008B52AC /* DrawMarqueeViewController.m */,
+				5AC991C01E4B106D008B52AC /* DrawMarqueeView.h */,
+				5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */,
+			);
+			name = AutoRollLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1467,11 +1531,13 @@
 				5A3973481E49A3580096A27F /* UIView+GlowView.m in Sources */,
 				5A3973121E49A1A40096A27F /* UIImageView+HighlightedWebCache.m in Sources */,
 				5A3974311E49AFC10096A27F /* POPBaseControl.m in Sources */,
+				5AC991B81E4B0E0C008B52AC /* ScaleLabel.m in Sources */,
 				5A3973461E49A3580096A27F /* UIView+UserInteraction.m in Sources */,
 				5A3972D41E49A1980096A27F /* POPAnimationExtras.mm in Sources */,
 				5A3973061E49A1A40096A27F /* NSData+ImageContentType.m in Sources */,
 				5A3974551E49C84E0096A27F /* HexColors.m in Sources */,
 				5A3972931E49A18E0096A27F /* NodeModelCell.m in Sources */,
+				5AC991C21E4B106D008B52AC /* DrawMarqueeViewController.m in Sources */,
 				5A39743A1E49AFF00096A27F /* UIImage+SolidColor.m in Sources */,
 				5A3972E11E49A1980096A27F /* POPVector.mm in Sources */,
 				5A39744C1E49B12D0096A27F /* Math.m in Sources */,
@@ -1483,12 +1549,14 @@
 				5A3973771E49A4290096A27F /* AFAutoPurgingImageCache.m in Sources */,
 				5A3974281E49AF540096A27F /* StrokeCircleLayerConfigure.m in Sources */,
 				5A3973921E49A7AE0096A27F /* Item.m in Sources */,
+				5AC991B71E4B0E0C008B52AC /* LabelScaleViewController.m in Sources */,
 				5A3972691E49A12F0096A27F /* NSDictionary+Log.m in Sources */,
 				5A39737A1E49A4290096A27F /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				5A3973F51E49AE680096A27F /* TransitionAnimator.m in Sources */,
 				5A3973081E49A1A40096A27F /* SDWebImageCompat.m in Sources */,
 				5A3973AA1E49A8240096A27F /* CustomTabBarViewController.m in Sources */,
 				5A39730C1E49A1A40096A27F /* SDWebImageManager.m in Sources */,
+				5AC991B11E4B0678008B52AC /* GlowLabel.m in Sources */,
 				5A3973D11E49A9340096A27F /* DefaultNotificationCenter.m in Sources */,
 				5A3972DC1E49A1980096A27F /* POPGeometry.mm in Sources */,
 				5A39737D1E49A4290096A27F /* UIProgressView+AFNetworking.m in Sources */,
@@ -1498,6 +1566,7 @@
 				5A3973071E49A1A40096A27F /* SDImageCache.m in Sources */,
 				5A39727F1E49A1650096A27F /* FBShimmeringView.m in Sources */,
 				5A3973091E49A1A40096A27F /* SDWebImageDecoder.m in Sources */,
+				5AC991C31E4B106D008B52AC /* DrawMarqueeView.m in Sources */,
 				5A3973E61E49ACA90096A27F /* BackgroundLineView.m in Sources */,
 				5A3972DF1E49A1980096A27F /* POPPropertyAnimation.mm in Sources */,
 				5A3972391E499F560096A27F /* ViewController.m in Sources */,
@@ -1521,6 +1590,7 @@
 				5A39735F1E49A41C0096A27F /* AFURLRequestSerialization.m in Sources */,
 				5A3973E51E49ACA90096A27F /* LineBackgroundView.m in Sources */,
 				5A3972941E49A18E0096A27F /* NodeModelRootNavigationController.m in Sources */,
+				5AC991AE1E4B059C008B52AC /* FlowLightLabelController.m in Sources */,
 				5A3972DB1E49A1980096A27F /* POPDecayAnimation.mm in Sources */,
 				5A3973AF1E49A8240096A27F /* FullTitleViewController.m in Sources */,
 				5A3973FC1E49AE7B0096A27F /* DismissAnimator.m in Sources */,
@@ -1549,6 +1619,8 @@
 				5A3973DB1E49AC5B0096A27F /* UIView+AnimationsListViewController.m in Sources */,
 				5A3973611E49A41C0096A27F /* AFURLSessionManager.m in Sources */,
 				5A3973C91E49A8950096A27F /* CustomHeaderFooterView.m in Sources */,
+				5AC991AB1E4B03D3008B52AC /* GlowLabelController.m in Sources */,
+				5AC991BC1E4B0FF9008B52AC /* MixedColorProgressViewController.m in Sources */,
 				5A3973D51E49AA440096A27F /* DemoViewController.m in Sources */,
 				5A3973261E49A1B10096A27F /* FontAttribute.m in Sources */,
 				5A3973DF1E49AC850096A27F /* UITableView+CellClass.m in Sources */,
