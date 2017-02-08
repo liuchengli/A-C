@@ -1460,6 +1460,7 @@
 				TargetAttributes = {
 					5A39722D1E499F560096A27F = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = M5JKD9797K;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1772,6 +1773,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5JKD9797K;
 				INFOPLIST_FILE = "A-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchengli.A-C";
@@ -1783,6 +1785,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5JKD9797K;
 				INFOPLIST_FILE = "A-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuchengli.A-C";

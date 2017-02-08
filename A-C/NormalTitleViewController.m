@@ -20,6 +20,8 @@
 
     [super buildTitleView];
     
+   self.titleView.backgroundColor =  [[UIColor grayColor] colorWithAlphaComponent:0.3f];
+    
     // Title label.
     UILabel *headlinelabel      = [UILabel new];
     headlinelabel.font          = [UIFont HeitiSCWithFontSize:20.f];
@@ -28,7 +30,7 @@
     headlinelabel.text          = self.title;
     [headlinelabel sizeToFit];
     
-    headlinelabel.center = self.titleView.middlePoint;
+    headlinelabel.center = CGPointMake(Width/2, self.titleView.height/2+10);
     
     // Line.
     UIView *line         = [[UIView alloc] initWithFrame:CGRectMake(0, 63.5, self.view.width, 0.5f)];
