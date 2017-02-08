@@ -165,6 +165,7 @@
 		5AC991BC1E4B0FF9008B52AC /* MixedColorProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991BB1E4B0FF9008B52AC /* MixedColorProgressViewController.m */; };
 		5AC991C21E4B106D008B52AC /* DrawMarqueeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991BF1E4B106D008B52AC /* DrawMarqueeViewController.m */; };
 		5AC991C31E4B106D008B52AC /* DrawMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */; };
+		5AC991C61E4B2FCD008B52AC /* FormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991C51E4B2FCD008B52AC /* FormController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -505,6 +506,8 @@
 		5AC991BF1E4B106D008B52AC /* DrawMarqueeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMarqueeViewController.m; sourceTree = "<group>"; };
 		5AC991C01E4B106D008B52AC /* DrawMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawMarqueeView.h; sourceTree = "<group>"; };
 		5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMarqueeView.m; sourceTree = "<group>"; };
+		5AC991C41E4B2FCD008B52AC /* FormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormController.h; sourceTree = "<group>"; };
+		5AC991C51E4B2FCD008B52AC /* FormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1320,6 +1323,8 @@
 		5AC991981E4AB561008B52AC /* Form */ = {
 			isa = PBXGroup;
 			children = (
+				5AC991C41E4B2FCD008B52AC /* FormController.h */,
+				5AC991C51E4B2FCD008B52AC /* FormController.m */,
 			);
 			name = Form;
 			sourceTree = "<group>";
@@ -1556,6 +1561,7 @@
 				5A3973F51E49AE680096A27F /* TransitionAnimator.m in Sources */,
 				5A3973081E49A1A40096A27F /* SDWebImageCompat.m in Sources */,
 				5A3973AA1E49A8240096A27F /* CustomTabBarViewController.m in Sources */,
+				5AC991C61E4B2FCD008B52AC /* FormController.m in Sources */,
 				5A39730C1E49A1A40096A27F /* SDWebImageManager.m in Sources */,
 				5AC991B11E4B0678008B52AC /* GlowLabel.m in Sources */,
 				5A3973D11E49A9340096A27F /* DefaultNotificationCenter.m in Sources */,

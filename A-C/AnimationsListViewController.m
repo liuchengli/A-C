@@ -36,7 +36,7 @@
 
 
 /* 金融图表 */
-
+#import "FormController.h"
 
 
 
@@ -231,8 +231,14 @@
     
     
     // 图表数据
-    self.ChartArray = @[[Item itemWithName:@"晃动警告文字" object:[WarnShakeLabelController class]],
-                        [Item itemWithName:@"辉光文字" object:[GlowLabelController class]],
+    self.ChartArray = @[[Item itemWithName:@"表格" object:[FormController class]],
+                        [Item itemWithName:@"折线图" object:[GlowLabelController class]],
+                        [Item itemWithName:@"曲线图" object:[GlowLabelController class]],
+                        [Item itemWithName:@"单一柱状图图" object:[GlowLabelController class]],
+                        [Item itemWithName:@"上下柱状图" object:[GlowLabelController class]],
+                        [Item itemWithName:@"实心饼图" object:[GlowLabelController class]],
+                        [Item itemWithName:@"环状饼图" object:[GlowLabelController class]]
+
                         
                         
                         ];
