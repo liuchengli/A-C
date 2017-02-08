@@ -155,6 +155,8 @@
 		5A39744C1E49B12D0096A27F /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A39744B1E49B12D0096A27F /* Math.m */; };
 		5A3974551E49C84E0096A27F /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974521E49C84E0096A27F /* HexColors.m */; };
 		5A3974561E49C84E0096A27F /* NSString+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974541E49C84E0096A27F /* NSString+HexColors.m */; };
+		5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */; };
+		5AC991A71E4AC967008B52AC /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A61E4AC967008B52AC /* CALayer+Anim.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -475,6 +477,10 @@
 		5A3974521E49C84E0096A27F /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		5A3974531E49C84E0096A27F /* NSString+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexColors.h"; sourceTree = "<group>"; };
 		5A3974541E49C84E0096A27F /* NSString+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexColors.m"; sourceTree = "<group>"; };
+		5AC991A11E4AC4F6008B52AC /* WarnShakeLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarnShakeLabelController.h; sourceTree = "<group>"; };
+		5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarnShakeLabelController.m; sourceTree = "<group>"; };
+		5AC991A51E4AC967008B52AC /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		5AC991A61E4AC967008B52AC /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -560,10 +566,6 @@
 				5A39743F1E49B0FC0096A27F /* NSString+Category */,
 				5A39743B1E49B0480096A27F /* StringRangeManager */,
 				5A3974341E49AFE70096A27F /* UIImage+Category */,
-				5A3974351E49AFF00096A27F /* UIImage+ImageEffects.h */,
-				5A3974361E49AFF00096A27F /* UIImage+ImageEffects.m */,
-				5A3974371E49AFF00096A27F /* UIImage+SolidColor.h */,
-				5A3974381E49AFF00096A27F /* UIImage+SolidColor.m */,
 				5A39742A1E49AFB80096A27F /* BaseControl */,
 				5A3973E71E49AE020096A27F /* EdgeInsetsLabel */,
 				5A3973E01E49ACA10096A27F /* LineBackgroundView */,
@@ -606,6 +608,9 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5AC991A01E4AC1B6008B52AC /* FlowLightLabel */,
+				5AC9919F1E4AC035008B52AC /* GlowLabel */,
+				5AC9919E1E4ABF87008B52AC /* WarnShakeLabel */,
 			);
 			name = "AnimationControllers(动画控制器)";
 			sourceTree = "<group>";
@@ -613,6 +618,12 @@
 		5A39724E1E49A0040096A27F /* ChartControllers(图表控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5AC991981E4AB561008B52AC /* Form */,
+				5AC991991E4AB5AE008B52AC /* BrokenLine */,
+				5AC9919A1E4AB64D008B52AC /* CurveLine */,
+				5AC9919B1E4ABD7F008B52AC /* BarChart */,
+				5AC9919C1E4ABD8D008B52AC /* UpDownBarChart */,
+				5AC9919D1E4ABE55008B52AC /* PieChart */,
 			);
 			name = "ChartControllers(图表控制器)";
 			sourceTree = "<group>";
@@ -1229,6 +1240,10 @@
 		5A3974341E49AFE70096A27F /* UIImage+Category */ = {
 			isa = PBXGroup;
 			children = (
+				5A3974351E49AFF00096A27F /* UIImage+ImageEffects.h */,
+				5A3974361E49AFF00096A27F /* UIImage+ImageEffects.m */,
+				5A3974371E49AFF00096A27F /* UIImage+SolidColor.h */,
+				5A3974381E49AFF00096A27F /* UIImage+SolidColor.m */,
 			);
 			name = "UIImage+Category";
 			sourceTree = "<group>";
@@ -1273,6 +1288,81 @@
 				5A3974541E49C84E0096A27F /* NSString+HexColors.m */,
 			);
 			name = HexColor;
+			sourceTree = "<group>";
+		};
+		5AC991981E4AB561008B52AC /* Form */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Form;
+			sourceTree = "<group>";
+		};
+		5AC991991E4AB5AE008B52AC /* BrokenLine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BrokenLine;
+			sourceTree = "<group>";
+		};
+		5AC9919A1E4AB64D008B52AC /* CurveLine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CurveLine;
+			sourceTree = "<group>";
+		};
+		5AC9919B1E4ABD7F008B52AC /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BarChart;
+			sourceTree = "<group>";
+		};
+		5AC9919C1E4ABD8D008B52AC /* UpDownBarChart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UpDownBarChart;
+			sourceTree = "<group>";
+		};
+		5AC9919D1E4ABE55008B52AC /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PieChart;
+			sourceTree = "<group>";
+		};
+		5AC9919E1E4ABF87008B52AC /* WarnShakeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5AC991A41E4AC95F008B52AC /* shakeLayerAnim */,
+				5AC991A11E4AC4F6008B52AC /* WarnShakeLabelController.h */,
+				5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */,
+			);
+			name = WarnShakeLabel;
+			sourceTree = "<group>";
+		};
+		5AC9919F1E4AC035008B52AC /* GlowLabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GlowLabel;
+			sourceTree = "<group>";
+		};
+		5AC991A01E4AC1B6008B52AC /* FlowLightLabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FlowLightLabel;
+			sourceTree = "<group>";
+		};
+		5AC991A41E4AC95F008B52AC /* shakeLayerAnim */ = {
+			isa = PBXGroup;
+			children = (
+				5AC991A51E4AC967008B52AC /* CALayer+Anim.h */,
+				5AC991A61E4AC967008B52AC /* CALayer+Anim.m */,
+			);
+			name = shakeLayerAnim;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1452,6 +1542,7 @@
 				5A3972D21E49A1980096A27F /* POPAnimation.mm in Sources */,
 				5A39730F1E49A1A40096A27F /* UIImage+GIF.m in Sources */,
 				5A3974031E49AE8C0096A27F /* ControllerPopAnimator.m in Sources */,
+				5AC991A71E4AC967008B52AC /* CALayer+Anim.m in Sources */,
 				5A3973AB1E49A8240096A27F /* CustomNavigationController.m in Sources */,
 				5A3972951E49A18E0096A27F /* NodeModelStrings.m in Sources */,
 				5A39735D1E49A41C0096A27F /* AFNetworkReachabilityManager.m in Sources */,
@@ -1481,6 +1572,7 @@
 				5A3972DE1E49A1980096A27F /* POPMath.mm in Sources */,
 				5A39729A1E49A18E0096A27F /* NodePressAnimationView.m in Sources */,
 				5A3973131E49A1A40096A27F /* UIImageView+WebCache.m in Sources */,
+				5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */,
 				5A3973C21E49A8770096A27F /* AbstractAdapter.m in Sources */,
 				5A3973BA1E49A84B0096A27F /* CustomCollectionCell.m in Sources */,
 				5A3974461E49B1050096A27F /* NSString+LabelWidthAndHeight.m in Sources */,
@@ -1645,6 +1737,7 @@
 				5A3972471E499F560096A27F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

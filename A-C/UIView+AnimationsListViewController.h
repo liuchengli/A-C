@@ -14,4 +14,7 @@
 
 + (UILabel *)animationsListViewControllerHeadLabel;
 
++ (UILabel *)animationsListViewControllerNormalHeadLabel2;
+
++ (UILabel *)animationsListViewControllerHeadLabel2;
 @end

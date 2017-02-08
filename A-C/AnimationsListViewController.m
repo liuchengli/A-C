@@ -24,6 +24,10 @@
 #import "NotificationCenterString.h"
 #import "NSString+HexColors.h"
 
+
+#import "WarnShakeLabelController.h"
+
+
 #import "ButtonPressViewController.h"
 #import "PopStrokeController.h"
 //#import "CAShapeLayerPathController.h"
@@ -110,7 +114,7 @@
     
     [self configureTitleView];
     
-     [self creatSegmentControl];
+    [self creatSegmentControl];
 }
 
 #pragma mark - RootViewController setup.
@@ -203,15 +207,18 @@
     [self.titleView addSubview:lineView];
     
     // Title label.
-    UILabel *headlinelabel          = [UIView animationsListViewControllerNormalHeadLabel];
-    UILabel *animationHeadLineLabel = [UIView animationsListViewControllerHeadLabel];
+    UILabel *headlinelabel           = [UIView animationsListViewControllerNormalHeadLabel];
+    UILabel *animationHeadLineLabel  = [UIView animationsListViewControllerHeadLabel];
+    
+    UILabel *headlinelabel2          = [UIView animationsListViewControllerNormalHeadLabel2];
+    UILabel *animationHeadLineLabel2 = [UIView animationsListViewControllerHeadLabel2];
     
     // Title view.
-    UIView *titleView             = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, 64)];
-    headlinelabel.center          = titleView.middlePoint;
-    animationHeadLineLabel.center = titleView.middlePoint;
+    UIView *titleView              = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, 64)];
     [titleView addSubview:headlinelabel];
     [titleView addSubview:animationHeadLineLabel];
+    [titleView addSubview:headlinelabel2];
+    [titleView addSubview:animationHeadLineLabel2];
     [self.titleView addSubview:titleView];
     
     UIView *line         = [[UIView alloc] initWithFrame:CGRectMake(0, 63.5, self.width, 0.5f)];
@@ -230,11 +237,23 @@
     [animationHeadLineLabel createGlowLayer];
     [animationHeadLineLabel insertGlowLayer];
     
+    animationHeadLineLabel2.glowRadius            = @(2.f);
+    animationHeadLineLabel2.glowOpacity           = @(1.f);
+    animationHeadLineLabel2.glowColor             = [[UIColor colorWithRed:0.203  green:0.598  blue:0.859 alpha:1] colorWithAlphaComponent:0.95f];
+    
+    animationHeadLineLabel2.glowDuration          = @(1.f);
+    animationHeadLineLabel2.hideDuration          = @(3.f);
+    animationHeadLineLabel2.glowAnimationDuration = @(2.f);
+    
+    [animationHeadLineLabel2 createGlowLayer];
+    [animationHeadLineLabel2 insertGlowLayer];
+    
     [GCDQueue executeInMainQueue:^{
         
         [animationHeadLineLabel startGlowLoop];
+        [animationHeadLineLabel2 startGlowLoop];
         
-    } afterDelaySecs:2.f];
+    } afterDelaySecs:1.f];
 }
 
 #pragma mark - Config DataSource.
@@ -242,7 +261,9 @@
 - (void)configureDataSource {
     
     NSArray *array = @[[Item itemWithName:@"POP-按钮动画" object:[ButtonPressViewController class]],
-                       [Item itemWithName:@"POP-Stroke动画" object:[PopStrokeController class]]];
+                       [Item itemWithName:@"POP-Stroke动画" object:[PopStrokeController class]],
+                       [Item itemWithName:@"晃动警告文字" object:[WarnShakeLabelController class]]
+                       ];
     
     self.items = [NSMutableArray array];
     
