@@ -167,6 +167,8 @@
 		5AC991C21E4B106D008B52AC /* DrawMarqueeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991BF1E4B106D008B52AC /* DrawMarqueeViewController.m */; };
 		5AC991C31E4B106D008B52AC /* DrawMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */; };
 		5AC991C61E4B2FCD008B52AC /* FormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991C51E4B2FCD008B52AC /* FormController.m */; };
+		5ACFDD4E1E4C36DA00E563BA /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD4D1E4C36DA00E563BA /* UIBezierPath+curved.m */; };
+		5ACFDD511E4C439400E563BA /* DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD501E4C439400E563BA /* DrawLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -511,6 +513,10 @@
 		5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMarqueeView.m; sourceTree = "<group>"; };
 		5AC991C41E4B2FCD008B52AC /* FormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormController.h; sourceTree = "<group>"; };
 		5AC991C51E4B2FCD008B52AC /* FormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormController.m; sourceTree = "<group>"; };
+		5ACFDD4C1E4C36DA00E563BA /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
+		5ACFDD4D1E4C36DA00E563BA /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
+		5ACFDD4F1E4C439400E563BA /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
+		5ACFDD501E4C439400E563BA /* DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1328,6 +1334,8 @@
 			children = (
 				5AC991C41E4B2FCD008B52AC /* FormController.h */,
 				5AC991C51E4B2FCD008B52AC /* FormController.m */,
+				5ACFDD4F1E4C439400E563BA /* DrawLine.h */,
+				5ACFDD501E4C439400E563BA /* DrawLine.m */,
 			);
 			name = Form;
 			sourceTree = "<group>";
@@ -1344,6 +1352,8 @@
 		5AC9919A1E4AB64D008B52AC /* CurveLine */ = {
 			isa = PBXGroup;
 			children = (
+				5ACFDD4C1E4C36DA00E563BA /* UIBezierPath+curved.h */,
+				5ACFDD4D1E4C36DA00E563BA /* UIBezierPath+curved.m */,
 			);
 			name = CurveLine;
 			sourceTree = "<group>";
@@ -1559,6 +1569,7 @@
 				5A39725F1E49A1210096A27F /* SingleMaskView.m in Sources */,
 				5A3973771E49A4290096A27F /* AFAutoPurgingImageCache.m in Sources */,
 				5A3974281E49AF540096A27F /* StrokeCircleLayerConfigure.m in Sources */,
+				5ACFDD511E4C439400E563BA /* DrawLine.m in Sources */,
 				5A3973921E49A7AE0096A27F /* Item.m in Sources */,
 				5AC991B71E4B0E0C008B52AC /* LabelScaleViewController.m in Sources */,
 				5A3972691E49A12F0096A27F /* NSDictionary+Log.m in Sources */,
@@ -1635,6 +1646,7 @@
 				5AC991AB1E4B03D3008B52AC /* GlowLabelController.m in Sources */,
 				5AC991BC1E4B0FF9008B52AC /* MixedColorProgressViewController.m in Sources */,
 				5A3973D51E49AA440096A27F /* DemoViewController.m in Sources */,
+				5ACFDD4E1E4C36DA00E563BA /* UIBezierPath+curved.m in Sources */,
 				5A3973261E49A1B10096A27F /* FontAttribute.m in Sources */,
 				5A3973DF1E49AC850096A27F /* UITableView+CellClass.m in Sources */,
 				5A3973AC1E49A8240096A27F /* CustomNormalContentViewController.m in Sources */,
