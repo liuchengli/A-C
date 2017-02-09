@@ -37,8 +37,7 @@
 
 /* 金融图表 */
 #import "FormController.h"
-
-
+#import "BrokenLineController.h"
 
 
 
@@ -232,7 +231,7 @@
     
     // 图表数据
     self.ChartArray = @[[Item itemWithName:@"表格" object:[FormController class]],
-                        [Item itemWithName:@"折线图" object:[GlowLabelController class]],
+                        [Item itemWithName:@"折线图" object:[BrokenLineController class]],
                         [Item itemWithName:@"曲线图" object:[GlowLabelController class]],
                         [Item itemWithName:@"单一柱状图图" object:[GlowLabelController class]],
                         [Item itemWithName:@"上下柱状图" object:[GlowLabelController class]],

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1C8A631E4C16EB001685AB /* BrokenLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C8A621E4C16EB001685AB /* BrokenLineController.m */; };
 		5A3972331E499F560096A27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3972321E499F560096A27F /* main.m */; };
 		5A3972361E499F560096A27F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3972351E499F560096A27F /* AppDelegate.m */; };
 		5A3972391E499F560096A27F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3972381E499F560096A27F /* ViewController.m */; };
@@ -169,6 +170,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A1C8A611E4C16EB001685AB /* BrokenLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrokenLineController.h; sourceTree = "<group>"; };
+		5A1C8A621E4C16EB001685AB /* BrokenLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokenLineController.m; sourceTree = "<group>"; };
 		5A39722E1E499F560096A27F /* A-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3972321E499F560096A27F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A3972341E499F560096A27F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1332,6 +1335,8 @@
 		5AC991991E4AB5AE008B52AC /* BrokenLine */ = {
 			isa = PBXGroup;
 			children = (
+				5A1C8A611E4C16EB001685AB /* BrokenLineController.h */,
+				5A1C8A621E4C16EB001685AB /* BrokenLineController.m */,
 			);
 			name = BrokenLine;
 			sourceTree = "<group>";
@@ -1594,6 +1599,7 @@
 				5A39735C1E49A41C0096A27F /* AFHTTPSessionManager.m in Sources */,
 				5A3974171E49AEB70096A27F /* PopStrokeController.m in Sources */,
 				5A3973251E49A1B10096A27F /* StringAttribute.m in Sources */,
+				5A1C8A631E4C16EB001685AB /* BrokenLineController.m in Sources */,
 				5A39735F1E49A41C0096A27F /* AFURLRequestSerialization.m in Sources */,
 				5A3973E51E49ACA90096A27F /* LineBackgroundView.m in Sources */,
 				5A3972941E49A18E0096A27F /* NodeModelRootNavigationController.m in Sources */,
