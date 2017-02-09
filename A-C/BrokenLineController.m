@@ -17,9 +17,9 @@
 
 @interface BrokenLineController ()
 
-@property (nonatomic, strong) NSArray *dataArray;      // 折线数据（共用）
+@property (nonatomic, strong) NSArray *dataArray;      // 折线拐点数据
 
-@property (nonatomic, strong) NSArray *dataArray2;     // 双折线数据
+@property (nonatomic, strong) NSArray *dataArray2;     // 第二条折线
 
 @end
 

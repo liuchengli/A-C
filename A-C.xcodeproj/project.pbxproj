@@ -169,6 +169,10 @@
 		5AC991C61E4B2FCD008B52AC /* FormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991C51E4B2FCD008B52AC /* FormController.m */; };
 		5ACFDD4E1E4C36DA00E563BA /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD4D1E4C36DA00E563BA /* UIBezierPath+curved.m */; };
 		5ACFDD511E4C439400E563BA /* DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD501E4C439400E563BA /* DrawLine.m */; };
+		5ACFDD541E4C52CB00E563BA /* CurveLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD531E4C52CB00E563BA /* CurveLineController.m */; };
+		5ACFDD571E4C580900E563BA /* barChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD561E4C580900E563BA /* barChartController.m */; };
+		5ACFDD5D1E4C58E700E563BA /* AniChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD5A1E4C58E700E563BA /* AniChartView.m */; };
+		5ACFDD5E1E4C58E700E563BA /* AniChartViewBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD5C1E4C58E700E563BA /* AniChartViewBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -517,6 +521,14 @@
 		5ACFDD4D1E4C36DA00E563BA /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
 		5ACFDD4F1E4C439400E563BA /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
 		5ACFDD501E4C439400E563BA /* DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLine.m; sourceTree = "<group>"; };
+		5ACFDD521E4C52CB00E563BA /* CurveLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveLineController.h; sourceTree = "<group>"; };
+		5ACFDD531E4C52CB00E563BA /* CurveLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveLineController.m; sourceTree = "<group>"; };
+		5ACFDD551E4C580900E563BA /* barChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barChartController.h; sourceTree = "<group>"; };
+		5ACFDD561E4C580900E563BA /* barChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = barChartController.m; sourceTree = "<group>"; };
+		5ACFDD591E4C58E700E563BA /* AniChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniChartView.h; sourceTree = "<group>"; };
+		5ACFDD5A1E4C58E700E563BA /* AniChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniChartView.m; sourceTree = "<group>"; };
+		5ACFDD5B1E4C58E700E563BA /* AniChartViewBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniChartViewBaseView.h; sourceTree = "<group>"; };
+		5ACFDD5C1E4C58E700E563BA /* AniChartViewBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniChartViewBaseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1352,6 +1364,8 @@
 		5AC9919A1E4AB64D008B52AC /* CurveLine */ = {
 			isa = PBXGroup;
 			children = (
+				5ACFDD521E4C52CB00E563BA /* CurveLineController.h */,
+				5ACFDD531E4C52CB00E563BA /* CurveLineController.m */,
 				5ACFDD4C1E4C36DA00E563BA /* UIBezierPath+curved.h */,
 				5ACFDD4D1E4C36DA00E563BA /* UIBezierPath+curved.m */,
 			);
@@ -1361,6 +1375,9 @@
 		5AC9919B1E4ABD7F008B52AC /* BarChart */ = {
 			isa = PBXGroup;
 			children = (
+				5ACFDD581E4C58CC00E563BA /* Anim-BarChart */,
+				5ACFDD551E4C580900E563BA /* barChartController.h */,
+				5ACFDD561E4C580900E563BA /* barChartController.m */,
 			);
 			name = BarChart;
 			sourceTree = "<group>";
@@ -1447,6 +1464,17 @@
 				5AC991C11E4B106D008B52AC /* DrawMarqueeView.m */,
 			);
 			name = AutoRollLabel;
+			sourceTree = "<group>";
+		};
+		5ACFDD581E4C58CC00E563BA /* Anim-BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				5ACFDD591E4C58E700E563BA /* AniChartView.h */,
+				5ACFDD5A1E4C58E700E563BA /* AniChartView.m */,
+				5ACFDD5B1E4C58E700E563BA /* AniChartViewBaseView.h */,
+				5ACFDD5C1E4C58E700E563BA /* AniChartViewBaseView.m */,
+			);
+			name = "Anim-BarChart";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1587,6 +1615,7 @@
 				5A3973B01E49A8240096A27F /* FullTitleVisualEffectViewController.m in Sources */,
 				5A3973BE1E49A85F0096A27F /* CellDataAdapter.m in Sources */,
 				5A3973071E49A1A40096A27F /* SDImageCache.m in Sources */,
+				5ACFDD5D1E4C58E700E563BA /* AniChartView.m in Sources */,
 				5A39727F1E49A1650096A27F /* FBShimmeringView.m in Sources */,
 				5A3973091E49A1A40096A27F /* SDWebImageDecoder.m in Sources */,
 				5AC991C31E4B106D008B52AC /* DrawMarqueeView.m in Sources */,
@@ -1613,6 +1642,7 @@
 				5A1C8A631E4C16EB001685AB /* BrokenLineController.m in Sources */,
 				5A39735F1E49A41C0096A27F /* AFURLRequestSerialization.m in Sources */,
 				5A3973E51E49ACA90096A27F /* LineBackgroundView.m in Sources */,
+				5ACFDD571E4C580900E563BA /* barChartController.m in Sources */,
 				5A3972941E49A18E0096A27F /* NodeModelRootNavigationController.m in Sources */,
 				5AC991AE1E4B059C008B52AC /* FlowLightLabelController.m in Sources */,
 				5A3972DB1E49A1980096A27F /* POPDecayAnimation.mm in Sources */,
@@ -1634,6 +1664,7 @@
 				5A39727E1E49A1650096A27F /* FBShimmeringLayer.m in Sources */,
 				5A3972761E49A15B0096A27F /* GCDSemaphore.m in Sources */,
 				5A3972D21E49A1980096A27F /* POPAnimation.mm in Sources */,
+				5ACFDD541E4C52CB00E563BA /* CurveLineController.m in Sources */,
 				5A39730F1E49A1A40096A27F /* UIImage+GIF.m in Sources */,
 				5A3974031E49AE8C0096A27F /* ControllerPopAnimator.m in Sources */,
 				5AC991A71E4AC967008B52AC /* CALayer+Anim.m in Sources */,
@@ -1668,6 +1699,7 @@
 				5A3973A91E49A8240096A27F /* CustomViewController.m in Sources */,
 				5A3972DE1E49A1980096A27F /* POPMath.mm in Sources */,
 				5A39729A1E49A18E0096A27F /* NodePressAnimationView.m in Sources */,
+				5ACFDD5E1E4C58E700E563BA /* AniChartViewBaseView.m in Sources */,
 				5A3973131E49A1A40096A27F /* UIImageView+WebCache.m in Sources */,
 				5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */,
 				5A3973C21E49A8770096A27F /* AbstractAdapter.m in Sources */,
