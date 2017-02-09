@@ -328,7 +328,7 @@
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.frame         = lineView.frame;
     shapeLayer.fillColor     = [UIColor clearColor].CGColor;
-    shapeLayer.strokeColor   = [UIColor greenColor].CGColor;
+    shapeLayer.strokeColor   = [UIColor orangeColor].CGColor;
     shapeLayer.path          = linePath.CGPath;
     shapeLayer.lineJoin      = kCALineJoinRound;
     shapeLayer.lineCap       = kCALineCapRound;
@@ -338,7 +338,7 @@
     // 2.7添加渐变色图层
     CAGradientLayer * gradientLayer = [CAGradientLayer layer];
     gradientLayer.frame = lineView.frame;
-    gradientLayer.colors = [NSArray arrayWithObjects:(id)[[UIColor greenColor] CGColor], (id)[[UIColor whiteColor] CGColor] ,nil];
+    gradientLayer.colors = [NSArray arrayWithObjects:(id)[[UIColor orangeColor] CGColor], (id)[[UIColor whiteColor] CGColor] ,nil];
     gradientLayer.locations =  @[@(0), @(1)];
     // 从上往下渐变
     gradientLayer.startPoint = CGPointMake(0, 0);
