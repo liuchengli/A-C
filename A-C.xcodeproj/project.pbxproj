@@ -173,6 +173,8 @@
 		5ACFDD571E4C580900E563BA /* barChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD561E4C580900E563BA /* barChartController.m */; };
 		5ACFDD5D1E4C58E700E563BA /* AniChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD5A1E4C58E700E563BA /* AniChartView.m */; };
 		5ACFDD5E1E4C58E700E563BA /* AniChartViewBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD5C1E4C58E700E563BA /* AniChartViewBaseView.m */; };
+		5ACFDD611E4C5F2C00E563BA /* RedAndGreenBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD601E4C5F2C00E563BA /* RedAndGreenBarView.m */; };
+		5ACFDD641E4C5F5A00E563BA /* UpDownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD631E4C5F5A00E563BA /* UpDownController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -529,6 +531,10 @@
 		5ACFDD5A1E4C58E700E563BA /* AniChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniChartView.m; sourceTree = "<group>"; };
 		5ACFDD5B1E4C58E700E563BA /* AniChartViewBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniChartViewBaseView.h; sourceTree = "<group>"; };
 		5ACFDD5C1E4C58E700E563BA /* AniChartViewBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniChartViewBaseView.m; sourceTree = "<group>"; };
+		5ACFDD5F1E4C5F2C00E563BA /* RedAndGreenBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedAndGreenBarView.h; sourceTree = "<group>"; };
+		5ACFDD601E4C5F2C00E563BA /* RedAndGreenBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedAndGreenBarView.m; sourceTree = "<group>"; };
+		5ACFDD621E4C5F5A00E563BA /* UpDownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpDownController.h; sourceTree = "<group>"; };
+		5ACFDD631E4C5F5A00E563BA /* UpDownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpDownController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1385,6 +1391,10 @@
 		5AC9919C1E4ABD8D008B52AC /* UpDownBarChart */ = {
 			isa = PBXGroup;
 			children = (
+				5ACFDD621E4C5F5A00E563BA /* UpDownController.h */,
+				5ACFDD631E4C5F5A00E563BA /* UpDownController.m */,
+				5ACFDD5F1E4C5F2C00E563BA /* RedAndGreenBarView.h */,
+				5ACFDD601E4C5F2C00E563BA /* RedAndGreenBarView.m */,
 			);
 			name = UpDownBarChart;
 			sourceTree = "<group>";
@@ -1647,6 +1657,7 @@
 				5AC991AE1E4B059C008B52AC /* FlowLightLabelController.m in Sources */,
 				5A3972DB1E49A1980096A27F /* POPDecayAnimation.mm in Sources */,
 				5A3973AF1E49A8240096A27F /* FullTitleViewController.m in Sources */,
+				5ACFDD611E4C5F2C00E563BA /* RedAndGreenBarView.m in Sources */,
 				5A3973FC1E49AE7B0096A27F /* DismissAnimator.m in Sources */,
 				5A3972681E49A12F0096A27F /* DateTimeHelper.m in Sources */,
 				5A3973911E49A7AE0096A27F /* AnimationsListViewNavigationController.m in Sources */,
@@ -1664,6 +1675,7 @@
 				5A39727E1E49A1650096A27F /* FBShimmeringLayer.m in Sources */,
 				5A3972761E49A15B0096A27F /* GCDSemaphore.m in Sources */,
 				5A3972D21E49A1980096A27F /* POPAnimation.mm in Sources */,
+				5ACFDD641E4C5F5A00E563BA /* UpDownController.m in Sources */,
 				5ACFDD541E4C52CB00E563BA /* CurveLineController.m in Sources */,
 				5A39730F1E49A1A40096A27F /* UIImage+GIF.m in Sources */,
 				5A3974031E49AE8C0096A27F /* ControllerPopAnimator.m in Sources */,
