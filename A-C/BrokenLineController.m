@@ -21,6 +21,7 @@
 
 @property (nonatomic, strong) NSArray *dataArray2;     // 第二条折线
 
+
 @end
 
 @implementation BrokenLineController
