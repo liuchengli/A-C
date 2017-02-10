@@ -37,7 +37,7 @@
         
          [weakSelf showPasswordError];
         
-    } timeIntervalWithSecs:2];
+    } timeIntervalWithSecs:2 delaySecs:1.f];
     
     [_timer start];
 

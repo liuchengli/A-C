@@ -699,12 +699,12 @@
 		5A39724E1E49A0040096A27F /* ChartControllers(图表控制器) */ = {
 			isa = PBXGroup;
 			children = (
-				5A7119CB1E4D551E00D48FA5 /* CircleChart */,
 				5AC991981E4AB561008B52AC /* Form */,
 				5AC991991E4AB5AE008B52AC /* BrokenLine */,
 				5AC9919A1E4AB64D008B52AC /* CurveLine */,
 				5AC9919B1E4ABD7F008B52AC /* BarChart */,
 				5AC9919C1E4ABD8D008B52AC /* UpDownBarChart */,
+				5A7119CB1E4D551E00D48FA5 /* CircleChart */,
 				5AC9919D1E4ABE55008B52AC /* PieChart */,
 			);
 			name = "ChartControllers(图表控制器)";
