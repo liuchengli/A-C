@@ -162,6 +162,7 @@
 		5A7119DA1E4D5AA200D48FA5 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119D91E4D5AA200D48FA5 /* CircleView.m */; };
 		5A7119E01E4D5B5B00D48FA5 /* YXEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119DD1E4D5B5B00D48FA5 /* YXEasing.m */; };
 		5A7119E11E4D5B5B00D48FA5 /* Easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119DE1E4D5B5B00D48FA5 /* Easing.c */; };
+		5A7119E51E4DA1AC00D48FA5 /* PieChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119E41E4DA1AC00D48FA5 /* PieChartController.m */; };
 		5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */; };
 		5AC991A71E4AC967008B52AC /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A61E4AC967008B52AC /* CALayer+Anim.m */; };
 		5AC991AB1E4B03D3008B52AC /* GlowLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991AA1E4B03D3008B52AC /* GlowLabelController.m */; };
@@ -517,6 +518,8 @@
 		5A7119DD1E4D5B5B00D48FA5 /* YXEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXEasing.m; sourceTree = "<group>"; };
 		5A7119DE1E4D5B5B00D48FA5 /* Easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Easing.c; sourceTree = "<group>"; };
 		5A7119DF1E4D5B5B00D48FA5 /* Easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easing.h; sourceTree = "<group>"; };
+		5A7119E31E4DA1AC00D48FA5 /* PieChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartController.h; sourceTree = "<group>"; };
+		5A7119E41E4DA1AC00D48FA5 /* PieChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartController.m; sourceTree = "<group>"; };
 		5AC991A11E4AC4F6008B52AC /* WarnShakeLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarnShakeLabelController.h; sourceTree = "<group>"; };
 		5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarnShakeLabelController.m; sourceTree = "<group>"; };
 		5AC991A51E4AC967008B52AC /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
@@ -1453,6 +1456,8 @@
 		5AC9919D1E4ABE55008B52AC /* PieChart */ = {
 			isa = PBXGroup;
 			children = (
+				5A7119E31E4DA1AC00D48FA5 /* PieChartController.h */,
+				5A7119E41E4DA1AC00D48FA5 /* PieChartController.m */,
 			);
 			name = PieChart;
 			sourceTree = "<group>";
@@ -1770,6 +1775,7 @@
 				5A39729A1E49A18E0096A27F /* NodePressAnimationView.m in Sources */,
 				5ACFDD5E1E4C58E700E563BA /* AniChartViewBaseView.m in Sources */,
 				5A3973131E49A1A40096A27F /* UIImageView+WebCache.m in Sources */,
+				5A7119E51E4DA1AC00D48FA5 /* PieChartController.m in Sources */,
 				5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */,
 				5A3973C21E49A8770096A27F /* AbstractAdapter.m in Sources */,
 				5A3973BA1E49A84B0096A27F /* CustomCollectionCell.m in Sources */,

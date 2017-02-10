@@ -81,6 +81,9 @@ while (0);                                                          \
 
 - (void)viewDidDisappear:(BOOL)animated {
     
+    
+     self.enableInteractivePopGestureRecognizer = YES;
+    
 #ifdef DEBUG
     
     [self debugWithString:@"[⛔️] Did left from" debugTag:kLeaveControllerType];

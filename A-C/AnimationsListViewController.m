@@ -42,6 +42,9 @@
 #import "barChartController.h"
 #import "UpDownController.h"
 #import "CircleChartController.h"
+#import "PieChartController.h"
+
+
 
 @interface AnimationsListViewController () <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate, DefaultNotificationCenterDelegate>
 
@@ -237,7 +240,7 @@
                         [Item itemWithName:@"单一柱状图图" object:[barChartController class]],
                         [Item itemWithName:@"上下柱状图" object:[UpDownController class]],
                         [Item itemWithName:@"环状饼图" object:[CircleChartController class]],
-                        [Item itemWithName:@"实心饼图" object:[GlowLabelController class]]
+                        [Item itemWithName:@"实心饼图" object:[PieChartController class]]
 
                         
                         
