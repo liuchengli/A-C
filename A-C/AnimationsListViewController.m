@@ -31,7 +31,7 @@
 #import "LabelScaleViewController.h"
 #import "DrawMarqueeViewController.h"
 #import "MixedColorProgressViewController.h"
-
+#import "BlurryViewController.h"
 
 
 
@@ -43,7 +43,7 @@
 #import "UpDownController.h"
 #import "CircleChartController.h"
 #import "PieChartController.h"
-
+#import "SinglePercentController.h"
 
 
 @interface AnimationsListViewController () <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate, DefaultNotificationCenterDelegate>
@@ -228,7 +228,8 @@
                        [Item itemWithName:@"闪亮文字" object:[FlowLightLabelController class]],
                        [Item itemWithName:@"复合缩放文字" object:[LabelScaleViewController class]],
                        [Item itemWithName:@"跑马灯文字" object:[DrawMarqueeViewController class]],
-                       [Item itemWithName:@"底色混色文字" object:[MixedColorProgressViewController class]]
+                       [Item itemWithName:@"底色混色文字" object:[MixedColorProgressViewController class]],
+                       [Item itemWithName:@"view模糊" object:[BlurryViewController class]]
                        ];
     
     
@@ -240,10 +241,9 @@
                         [Item itemWithName:@"单一柱状图图" object:[barChartController class]],
                         [Item itemWithName:@"上下柱状图" object:[UpDownController class]],
                         [Item itemWithName:@"环状饼图" object:[CircleChartController class]],
-                        [Item itemWithName:@"实心饼图" object:[PieChartController class]]
-
-                        
-                        
+                        [Item itemWithName:@"实心饼图" object:[PieChartController class]],
+                        [Item itemWithName:@"单一百分比图" object:[SinglePercentController class]]
+                  
                         ];
     
     

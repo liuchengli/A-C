@@ -183,6 +183,12 @@
 		5ACFDD611E4C5F2C00E563BA /* RedAndGreenBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD601E4C5F2C00E563BA /* RedAndGreenBarView.m */; };
 		5ACFDD641E4C5F5A00E563BA /* UpDownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD631E4C5F5A00E563BA /* UpDownController.m */; };
 		5ACFDD681E4C72B500E563BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACFDD671E4C72B500E563BA /* Assets.xcassets */; };
+		5AF4B0401E51966D004CF90D /* SinglePercentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B03F1E51966D004CF90D /* SinglePercentController.m */; };
+		5AF4B0491E5198ED004CF90D /* LXCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0421E5198ED004CF90D /* LXCircleAnimationView.m */; };
+		5AF4B04A1E5198ED004CF90D /* LXGradientProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0441E5198ED004CF90D /* LXGradientProcessView.m */; };
+		5AF4B04B1E5198ED004CF90D /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0461E5198ED004CF90D /* UIColor+Extensions.m */; };
+		5AF4B04C1E5198ED004CF90D /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0481E5198ED004CF90D /* UIView+Extensions.m */; };
+		5AF4B0501E51A531004CF90D /* BlurryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B04F1E51A531004CF90D /* BlurryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -559,6 +565,18 @@
 		5ACFDD621E4C5F5A00E563BA /* UpDownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpDownController.h; sourceTree = "<group>"; };
 		5ACFDD631E4C5F5A00E563BA /* UpDownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpDownController.m; sourceTree = "<group>"; };
 		5ACFDD671E4C72B500E563BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AF4B03E1E51966D004CF90D /* SinglePercentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePercentController.h; sourceTree = "<group>"; };
+		5AF4B03F1E51966D004CF90D /* SinglePercentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePercentController.m; sourceTree = "<group>"; };
+		5AF4B0411E5198ED004CF90D /* LXCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircleAnimationView.h; sourceTree = "<group>"; };
+		5AF4B0421E5198ED004CF90D /* LXCircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCircleAnimationView.m; sourceTree = "<group>"; };
+		5AF4B0431E5198ED004CF90D /* LXGradientProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientProcessView.h; sourceTree = "<group>"; };
+		5AF4B0441E5198ED004CF90D /* LXGradientProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientProcessView.m; sourceTree = "<group>"; };
+		5AF4B0451E5198ED004CF90D /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		5AF4B0461E5198ED004CF90D /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		5AF4B0471E5198ED004CF90D /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		5AF4B0481E5198ED004CF90D /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		5AF4B04E1E51A531004CF90D /* BlurryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurryViewController.h; sourceTree = "<group>"; };
+		5AF4B04F1E51A531004CF90D /* BlurryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -686,6 +704,7 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5AF4B04D1E51A4CD004CF90D /* Blurry */,
 				5AC991BD1E4B101E008B52AC /* AutoRollLabel */,
 				5AC991B91E4B0FED008B52AC /* MixedColorProgress */,
 				5AC991B21E4B0DCB008B52AC /* ScaleLabel */,
@@ -699,6 +718,7 @@
 		5A39724E1E49A0040096A27F /* ChartControllers(图表控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5AF4B03C1E5195C8004CF90D /* singlePercent */,
 				5AC991981E4AB561008B52AC /* Form */,
 				5AC991991E4AB5AE008B52AC /* BrokenLine */,
 				5AC9919A1E4AB64D008B52AC /* CurveLine */,
@@ -1543,6 +1563,32 @@
 			name = "Anim-BarChart";
 			sourceTree = "<group>";
 		};
+		5AF4B03C1E5195C8004CF90D /* singlePercent */ = {
+			isa = PBXGroup;
+			children = (
+				5AF4B03E1E51966D004CF90D /* SinglePercentController.h */,
+				5AF4B03F1E51966D004CF90D /* SinglePercentController.m */,
+				5AF4B0411E5198ED004CF90D /* LXCircleAnimationView.h */,
+				5AF4B0421E5198ED004CF90D /* LXCircleAnimationView.m */,
+				5AF4B0431E5198ED004CF90D /* LXGradientProcessView.h */,
+				5AF4B0441E5198ED004CF90D /* LXGradientProcessView.m */,
+				5AF4B0451E5198ED004CF90D /* UIColor+Extensions.h */,
+				5AF4B0461E5198ED004CF90D /* UIColor+Extensions.m */,
+				5AF4B0471E5198ED004CF90D /* UIView+Extensions.h */,
+				5AF4B0481E5198ED004CF90D /* UIView+Extensions.m */,
+			);
+			name = singlePercent;
+			sourceTree = "<group>";
+		};
+		5AF4B04D1E51A4CD004CF90D /* Blurry */ = {
+			isa = PBXGroup;
+			children = (
+				5AF4B04E1E51A531004CF90D /* BlurryViewController.h */,
+				5AF4B04F1E51A531004CF90D /* BlurryViewController.m */,
+			);
+			name = Blurry;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1640,6 +1686,7 @@
 				5A3974321E49AFC10096A27F /* BaseControl.m in Sources */,
 				5A3972771E49A15B0096A27F /* GCDTimer.m in Sources */,
 				5A3972DD1E49A1980096A27F /* POPLayerExtras.mm in Sources */,
+				5AF4B0491E5198ED004CF90D /* LXCircleAnimationView.m in Sources */,
 				5A39735E1E49A41C0096A27F /* AFSecurityPolicy.m in Sources */,
 				5A3973C81E49A8950096A27F /* TableViewSectionItem.m in Sources */,
 				5A3973281E49A1B10096A27F /* NSMutableAttributedString+StringAttribute.m in Sources */,
@@ -1648,6 +1695,7 @@
 				5A3973121E49A1A40096A27F /* UIImageView+HighlightedWebCache.m in Sources */,
 				5A3974311E49AFC10096A27F /* POPBaseControl.m in Sources */,
 				5AC991B81E4B0E0C008B52AC /* ScaleLabel.m in Sources */,
+				5AF4B04A1E5198ED004CF90D /* LXGradientProcessView.m in Sources */,
 				5A3973461E49A3580096A27F /* UIView+UserInteraction.m in Sources */,
 				5A3972D41E49A1980096A27F /* POPAnimationExtras.mm in Sources */,
 				5A3973061E49A1A40096A27F /* NSData+ImageContentType.m in Sources */,
@@ -1684,6 +1732,7 @@
 				5A3973B01E49A8240096A27F /* FullTitleVisualEffectViewController.m in Sources */,
 				5A3973BE1E49A85F0096A27F /* CellDataAdapter.m in Sources */,
 				5A7119E11E4D5B5B00D48FA5 /* Easing.c in Sources */,
+				5AF4B0501E51A531004CF90D /* BlurryViewController.m in Sources */,
 				5A3973071E49A1A40096A27F /* SDImageCache.m in Sources */,
 				5ACFDD5D1E4C58E700E563BA /* AniChartView.m in Sources */,
 				5A39727F1E49A1650096A27F /* FBShimmeringView.m in Sources */,
@@ -1719,9 +1768,11 @@
 				5A3973AF1E49A8240096A27F /* FullTitleViewController.m in Sources */,
 				5ACFDD611E4C5F2C00E563BA /* RedAndGreenBarView.m in Sources */,
 				5A3973FC1E49AE7B0096A27F /* DismissAnimator.m in Sources */,
+				5AF4B04B1E5198ED004CF90D /* UIColor+Extensions.m in Sources */,
 				5A3972681E49A12F0096A27F /* DateTimeHelper.m in Sources */,
 				5A3973911E49A7AE0096A27F /* AnimationsListViewNavigationController.m in Sources */,
 				5A3972DA1E49A1980096A27F /* POPCustomAnimation.mm in Sources */,
+				5AF4B0401E51966D004CF90D /* SinglePercentController.m in Sources */,
 				5A3972D71E49A1980096A27F /* POPAnimator.mm in Sources */,
 				5A3972671E49A12F0096A27F /* WxHxD.m in Sources */,
 				5A3973141E49A1A40096A27F /* UIView+WebCacheOperation.m in Sources */,
@@ -1745,6 +1796,7 @@
 				5A39735D1E49A41C0096A27F /* AFNetworkReachabilityManager.m in Sources */,
 				5A7119D31E4D593F00D48FA5 /* CirclePercentView.m in Sources */,
 				5A3973DB1E49AC5B0096A27F /* UIView+AnimationsListViewController.m in Sources */,
+				5AF4B04C1E5198ED004CF90D /* UIView+Extensions.m in Sources */,
 				5A3973611E49A41C0096A27F /* AFURLSessionManager.m in Sources */,
 				5A3973C91E49A8950096A27F /* CustomHeaderFooterView.m in Sources */,
 				5AC991AB1E4B03D3008B52AC /* GlowLabelController.m in Sources */,
