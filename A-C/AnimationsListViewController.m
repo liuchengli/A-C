@@ -32,6 +32,7 @@
 #import "DrawMarqueeViewController.h"
 #import "MixedColorProgressViewController.h"
 #import "BlurryViewController.h"
+#import "AlertController.h"
 
 
 
@@ -229,7 +230,9 @@
                        [Item itemWithName:@"复合缩放文字" object:[LabelScaleViewController class]],
                        [Item itemWithName:@"跑马灯文字" object:[DrawMarqueeViewController class]],
                        [Item itemWithName:@"底色混色文字" object:[MixedColorProgressViewController class]],
-                       [Item itemWithName:@"view模糊" object:[BlurryViewController class]]
+                       [Item itemWithName:@"view模糊" object:[BlurryViewController class]],
+                       [Item itemWithName:@"弹窗" object:[AlertController class]]
+                       
                        ];
     
     

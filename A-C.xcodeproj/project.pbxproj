@@ -189,6 +189,8 @@
 		5AF4B04B1E5198ED004CF90D /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0461E5198ED004CF90D /* UIColor+Extensions.m */; };
 		5AF4B04C1E5198ED004CF90D /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0481E5198ED004CF90D /* UIView+Extensions.m */; };
 		5AF4B0501E51A531004CF90D /* BlurryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B04F1E51A531004CF90D /* BlurryViewController.m */; };
+		5AF4B0541E51BAE5004CF90D /* AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0531E51BAE5004CF90D /* AlertController.m */; };
+		5AF4B0571E51BB45004CF90D /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0561E51BB45004CF90D /* AlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -577,6 +579,10 @@
 		5AF4B0481E5198ED004CF90D /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
 		5AF4B04E1E51A531004CF90D /* BlurryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurryViewController.h; sourceTree = "<group>"; };
 		5AF4B04F1E51A531004CF90D /* BlurryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurryViewController.m; sourceTree = "<group>"; };
+		5AF4B0521E51BAE5004CF90D /* AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertController.h; sourceTree = "<group>"; };
+		5AF4B0531E51BAE5004CF90D /* AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertController.m; sourceTree = "<group>"; };
+		5AF4B0551E51BB45004CF90D /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		5AF4B0561E51BB45004CF90D /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -704,6 +710,7 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5AF4B0511E51B3C4004CF90D /* AlertView */,
 				5AF4B04D1E51A4CD004CF90D /* Blurry */,
 				5AC991BD1E4B101E008B52AC /* AutoRollLabel */,
 				5AC991B91E4B0FED008B52AC /* MixedColorProgress */,
@@ -1589,6 +1596,17 @@
 			name = Blurry;
 			sourceTree = "<group>";
 		};
+		5AF4B0511E51B3C4004CF90D /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5AF4B0521E51BAE5004CF90D /* AlertController.h */,
+				5AF4B0531E51BAE5004CF90D /* AlertController.m */,
+				5AF4B0551E51BB45004CF90D /* AlertView.h */,
+				5AF4B0561E51BB45004CF90D /* AlertView.m */,
+			);
+			name = AlertView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1749,6 +1767,7 @@
 				5A3972601E49A1210096A27F /* LoadMaskHelper.m in Sources */,
 				5A39729B1E49A18E0096A27F /* PropertyInfomation.m in Sources */,
 				5A3973101E49A1A40096A27F /* UIImage+MultiFormat.m in Sources */,
+				5AF4B0571E51BB45004CF90D /* AlertView.m in Sources */,
 				5A3972971E49A18E0096A27F /* NodeModelViewController.m in Sources */,
 				5A3973111E49A1A40096A27F /* UIImage+WebP.m in Sources */,
 				5A3973ED1E49AE090096A27F /* EdgeInsetsLabel.m in Sources */,
@@ -1817,6 +1836,7 @@
 				5A3972361E499F560096A27F /* AppDelegate.m in Sources */,
 				5A3973051E49A1A40096A27F /* MKAnnotationView+WebCache.m in Sources */,
 				5A3972D11E49A1980096A27F /* POPAnimatableProperty.mm in Sources */,
+				5AF4B0541E51BAE5004CF90D /* AlertController.m in Sources */,
 				5A3973781E49A4290096A27F /* AFImageDownloader.m in Sources */,
 				5A3974331E49AFC10096A27F /* POPScaleControl.m in Sources */,
 				5A3973601E49A41C0096A27F /* AFURLResponseSerialization.m in Sources */,
