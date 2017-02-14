@@ -33,7 +33,7 @@
 #import "MixedColorProgressViewController.h"
 #import "BlurryViewController.h"
 #import "AlertController.h"
-
+#import "MaskViewController.h"
 
 
 /* 金融图表 */
@@ -231,7 +231,8 @@
                        [Item itemWithName:@"跑马灯文字" object:[DrawMarqueeViewController class]],
                        [Item itemWithName:@"底色混色文字" object:[MixedColorProgressViewController class]],
                        [Item itemWithName:@"view模糊" object:[BlurryViewController class]],
-                       [Item itemWithName:@"弹窗" object:[AlertController class]]
+                       [Item itemWithName:@"弹窗" object:[AlertController class]],
+                       [Item itemWithName:@"蒙版引导" object:[MaskViewController class]]
                        
                        ];
     

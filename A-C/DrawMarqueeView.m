@@ -123,6 +123,9 @@
     layer.beginTime               = 0.0;
     CFTimeInterval timeSincePause = [layer convertTime:CACurrentMediaTime() fromLayer:nil] - pausedTime;
     layer.beginTime               = timeSincePause;
+    
+    
+    
 }
 
 @end
