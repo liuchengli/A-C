@@ -10,6 +10,10 @@
 
 @interface AlertView : NSObject
 
-+ (void)showAlertView:(UIView*)onView withText:(NSString*) string during:(NSTimeInterval)time;
+// 默认文字居中显示
++ (void)showAlertView:(UIView*)onView withText:(NSString*)message during:(NSTimeInterval)delayTime;
+
+// 文字靠左显示
++ (void)showAlertView:(UIView*)onView withLeftText:(NSString*)message during:(NSTimeInterval)delayTime;
 
 @end
