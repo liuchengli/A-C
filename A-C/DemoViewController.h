@@ -2,8 +2,8 @@
 //  DemoViewController.h
 //  ZiPeiYi
 //
-//  Created by FrankLiu on 2016/11/14.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by 刘成利 on 2016/11/14.
+//  Copyright © 2016年 刘成利. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
