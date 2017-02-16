@@ -9,6 +9,7 @@
 #import "Header.h"
 #import "GlowLabelController.h"
 #import "GlowLabel.h"
+#import "UIView+Glow.h"
 
 @interface GlowLabelController ()
 
@@ -29,7 +30,9 @@
 
 - (void)show{
 
-    GlowLabel *glowLabel    = [[GlowLabel alloc] initWithFrame:CGRectMake(0, 200, ScreenWidth, 40)];
+    
+    // 静态文字边辉光
+    GlowLabel *glowLabel    = [[GlowLabel alloc] initWithFrame:CGRectMake(0, 100, ScreenWidth, 40)];
     [self.contentView addSubview:glowLabel];
     
     glowLabel.text            = @"红红火火";
@@ -46,7 +49,7 @@
     
     
     
-    GlowLabel *glowLabel2    = [[GlowLabel alloc] initWithFrame:CGRectMake(0, 300, ScreenWidth, 40)];
+    GlowLabel *glowLabel2    = [[GlowLabel alloc] initWithFrame:CGRectMake(0, 200, ScreenWidth, 40)];
     [self.contentView addSubview:glowLabel2];
     
     glowLabel2.text            = @"iOS开发 LiuChengLi";
@@ -60,6 +63,37 @@
     
     glowLabel2.innerGlowSize  = 3;
     glowLabel2.innerGlowColor = [[UIColor blackColor] colorWithAlphaComponent:0.25f];
+    
+    
+    // 动态文字交替辉光
+    
+    {
+    
+        // name标签
+        UILabel *name      = [[UILabel alloc] initWithFrame:CGRectMake(ScreenWidth/2-100, 0, 300, 200)];
+        name.text          = @"刘成利";
+        name.font          = [UIFont fontWithName:@"Heiti SC" size:50.f];
+        name.textColor     = [UIColor redColor];
+        name.center        = self.contentView.center;
+        name.textAlignment = NSTextAlignmentCenter;
+        [self.contentView addSubview:name];
+        
+        // 字幕标签
+        UILabel *letters      = [[UILabel alloc] initWithFrame:CGRectMake(ScreenWidth/2-100, 400, 200, 200)];
+        letters.text          = @"No zuo no die";
+        letters.font          = [UIFont fontWithName:@"Heiti SC" size:30.f];
+        letters.textColor     = [UIColor yellowColor];
+        letters.textAlignment = NSTextAlignmentCenter;
+        [self.contentView addSubview:letters];
+        
+        // 开始辉光
+        [name startGlowingWithColor:[UIColor cyanColor]      intensity:1.0f];
+        [letters startGlowingWithColor:[UIColor magentaColor] intensity:1.0f];
+    
+    
+    
+    
+    }
 
 
 }

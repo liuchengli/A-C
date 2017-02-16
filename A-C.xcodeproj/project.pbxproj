@@ -159,6 +159,7 @@
 		5A4998951E5590FE00A140ED /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998941E5590FE00A140ED /* PressAnimationButton.m */; };
 		5A49989A1E55988400A140ED /* LoginButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998991E55988400A140ED /* LoginButtonController.m */; };
 		5A49989D1E5598AD00A140ED /* WaitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49989C1E5598AD00A140ED /* WaitButton.m */; };
+		5A64EE701E55EF07001A8890 /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64EE6F1E55EF07001A8890 /* UIView+Glow.m */; };
 		5A7119CE1E4D565A00D48FA5 /* CircleChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119CD1E4D565A00D48FA5 /* CircleChartController.m */; };
 		5A7119D31E4D593F00D48FA5 /* CirclePercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119D01E4D593F00D48FA5 /* CirclePercentView.m */; };
 		5A7119D41E4D593F00D48FA5 /* CircleInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119D21E4D593F00D48FA5 /* CircleInfomationView.m */; };
@@ -526,6 +527,8 @@
 		5A4998991E55988400A140ED /* LoginButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginButtonController.m; sourceTree = "<group>"; };
 		5A49989B1E5598AD00A140ED /* WaitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitButton.h; sourceTree = "<group>"; };
 		5A49989C1E5598AD00A140ED /* WaitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitButton.m; sourceTree = "<group>"; };
+		5A64EE6E1E55EF07001A8890 /* UIView+Glow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Glow.h"; sourceTree = "<group>"; };
+		5A64EE6F1E55EF07001A8890 /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
 		5A7119CC1E4D565A00D48FA5 /* CircleChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleChartController.h; sourceTree = "<group>"; };
 		5A7119CD1E4D565A00D48FA5 /* CircleChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleChartController.m; sourceTree = "<group>"; };
 		5A7119CF1E4D593F00D48FA5 /* CirclePercentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclePercentView.h; sourceTree = "<group>"; };
@@ -1558,6 +1561,8 @@
 				5AC991AA1E4B03D3008B52AC /* GlowLabelController.m */,
 				5AC991AF1E4B0678008B52AC /* GlowLabel.h */,
 				5AC991B01E4B0678008B52AC /* GlowLabel.m */,
+				5A64EE6E1E55EF07001A8890 /* UIView+Glow.h */,
+				5A64EE6F1E55EF07001A8890 /* UIView+Glow.m */,
 			);
 			name = GlowLabel;
 			sourceTree = "<group>";
@@ -1758,6 +1763,7 @@
 				5A3974321E49AFC10096A27F /* BaseControl.m in Sources */,
 				5A3972771E49A15B0096A27F /* GCDTimer.m in Sources */,
 				5A3972DD1E49A1980096A27F /* POPLayerExtras.mm in Sources */,
+				5A64EE701E55EF07001A8890 /* UIView+Glow.m in Sources */,
 				5AF4B0491E5198ED004CF90D /* LXCircleAnimationView.m in Sources */,
 				5A39735E1E49A41C0096A27F /* AFSecurityPolicy.m in Sources */,
 				5A3973C81E49A8950096A27F /* TableViewSectionItem.m in Sources */,
