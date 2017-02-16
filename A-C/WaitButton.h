@@ -1,9 +1,8 @@
 //
-//  LYButton.h
-//  自定义登录界面
+//  WaitButton.h
 //
-//  Created by apple on 16/8/10.
-//  Copyright © 2016年 雷晏. All rights reserved.
+//  Created by 刘成利 on 16/10/10.
+//  Copyright © 2016年 刘成利. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +11,7 @@ typedef void(^finishBlock)();
 
 @interface WaitButton : UIView
 
+// 完成回调
 @property (nonatomic,copy) finishBlock finishBlock;
 
 @end

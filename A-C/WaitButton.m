@@ -1,5 +1,4 @@
 
-//
 #import "WaitButton.h"
 
 @interface WaitButton()
