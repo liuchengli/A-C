@@ -155,6 +155,8 @@
 		5A39744C1E49B12D0096A27F /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A39744B1E49B12D0096A27F /* Math.m */; };
 		5A3974551E49C84E0096A27F /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974521E49C84E0096A27F /* HexColors.m */; };
 		5A3974561E49C84E0096A27F /* NSString+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974541E49C84E0096A27F /* NSString+HexColors.m */; };
+		5A4998921E5590F600A140ED /* LongPressButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998911E5590F600A140ED /* LongPressButtonViewController.m */; };
+		5A4998951E5590FE00A140ED /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998941E5590FE00A140ED /* PressAnimationButton.m */; };
 		5A7119CE1E4D565A00D48FA5 /* CircleChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119CD1E4D565A00D48FA5 /* CircleChartController.m */; };
 		5A7119D31E4D593F00D48FA5 /* CirclePercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119D01E4D593F00D48FA5 /* CirclePercentView.m */; };
 		5A7119D41E4D593F00D48FA5 /* CircleInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119D21E4D593F00D48FA5 /* CircleInfomationView.m */; };
@@ -514,6 +516,10 @@
 		5A3974521E49C84E0096A27F /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		5A3974531E49C84E0096A27F /* NSString+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexColors.h"; sourceTree = "<group>"; };
 		5A3974541E49C84E0096A27F /* NSString+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexColors.m"; sourceTree = "<group>"; };
+		5A4998901E5590F600A140ED /* LongPressButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressButtonViewController.h; sourceTree = "<group>"; };
+		5A4998911E5590F600A140ED /* LongPressButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressButtonViewController.m; sourceTree = "<group>"; };
+		5A4998931E5590FE00A140ED /* PressAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressAnimationButton.h; sourceTree = "<group>"; };
+		5A4998941E5590FE00A140ED /* PressAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressAnimationButton.m; sourceTree = "<group>"; };
 		5A7119CC1E4D565A00D48FA5 /* CircleChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleChartController.h; sourceTree = "<group>"; };
 		5A7119CD1E4D565A00D48FA5 /* CircleChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleChartController.m; sourceTree = "<group>"; };
 		5A7119CF1E4D593F00D48FA5 /* CirclePercentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclePercentView.h; sourceTree = "<group>"; };
@@ -716,6 +722,7 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5A49988F1E5590B600A140ED /* LongPressButton */,
 				5AA735ED1E52F54900B8CB4C /* MaskView */,
 				5AF4B0511E51B3C4004CF90D /* AlertView */,
 				5AF4B04D1E51A4CD004CF90D /* Blurry */,
@@ -1407,6 +1414,17 @@
 			name = HexColor;
 			sourceTree = "<group>";
 		};
+		5A49988F1E5590B600A140ED /* LongPressButton */ = {
+			isa = PBXGroup;
+			children = (
+				5A4998901E5590F600A140ED /* LongPressButtonViewController.h */,
+				5A4998911E5590F600A140ED /* LongPressButtonViewController.m */,
+				5A4998931E5590FE00A140ED /* PressAnimationButton.h */,
+				5A4998941E5590FE00A140ED /* PressAnimationButton.m */,
+			);
+			name = LongPressButton;
+			sourceTree = "<group>";
+		};
 		5A7119CB1E4D551E00D48FA5 /* CircleChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1799,6 +1817,7 @@
 				5A3973251E49A1B10096A27F /* StringAttribute.m in Sources */,
 				5A1C8A631E4C16EB001685AB /* BrokenLineController.m in Sources */,
 				5A39735F1E49A41C0096A27F /* AFURLRequestSerialization.m in Sources */,
+				5A4998921E5590F600A140ED /* LongPressButtonViewController.m in Sources */,
 				5A3973E51E49ACA90096A27F /* LineBackgroundView.m in Sources */,
 				5ACFDD571E4C580900E563BA /* barChartController.m in Sources */,
 				5A3972941E49A18E0096A27F /* NodeModelRootNavigationController.m in Sources */,
@@ -1806,6 +1825,7 @@
 				5A3972DB1E49A1980096A27F /* POPDecayAnimation.mm in Sources */,
 				5A3973AF1E49A8240096A27F /* FullTitleViewController.m in Sources */,
 				5ACFDD611E4C5F2C00E563BA /* RedAndGreenBarView.m in Sources */,
+				5A4998951E5590FE00A140ED /* PressAnimationButton.m in Sources */,
 				5A3973FC1E49AE7B0096A27F /* DismissAnimator.m in Sources */,
 				5AF4B04B1E5198ED004CF90D /* UIColor+Extensions.m in Sources */,
 				5A3972681E49A12F0096A27F /* DateTimeHelper.m in Sources */,
