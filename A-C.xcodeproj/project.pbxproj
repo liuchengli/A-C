@@ -157,6 +157,8 @@
 		5A3974561E49C84E0096A27F /* NSString+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974541E49C84E0096A27F /* NSString+HexColors.m */; };
 		5A4998921E5590F600A140ED /* LongPressButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998911E5590F600A140ED /* LongPressButtonViewController.m */; };
 		5A4998951E5590FE00A140ED /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998941E5590FE00A140ED /* PressAnimationButton.m */; };
+		5A49989A1E55988400A140ED /* LoginButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998991E55988400A140ED /* LoginButtonController.m */; };
+		5A49989D1E5598AD00A140ED /* WaitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49989C1E5598AD00A140ED /* WaitButton.m */; };
 		5A7119CE1E4D565A00D48FA5 /* CircleChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119CD1E4D565A00D48FA5 /* CircleChartController.m */; };
 		5A7119D31E4D593F00D48FA5 /* CirclePercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119D01E4D593F00D48FA5 /* CirclePercentView.m */; };
 		5A7119D41E4D593F00D48FA5 /* CircleInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7119D21E4D593F00D48FA5 /* CircleInfomationView.m */; };
@@ -520,6 +522,10 @@
 		5A4998911E5590F600A140ED /* LongPressButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressButtonViewController.m; sourceTree = "<group>"; };
 		5A4998931E5590FE00A140ED /* PressAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressAnimationButton.h; sourceTree = "<group>"; };
 		5A4998941E5590FE00A140ED /* PressAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressAnimationButton.m; sourceTree = "<group>"; };
+		5A4998981E55988400A140ED /* LoginButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginButtonController.h; sourceTree = "<group>"; };
+		5A4998991E55988400A140ED /* LoginButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginButtonController.m; sourceTree = "<group>"; };
+		5A49989B1E5598AD00A140ED /* WaitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitButton.h; sourceTree = "<group>"; };
+		5A49989C1E5598AD00A140ED /* WaitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitButton.m; sourceTree = "<group>"; };
 		5A7119CC1E4D565A00D48FA5 /* CircleChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleChartController.h; sourceTree = "<group>"; };
 		5A7119CD1E4D565A00D48FA5 /* CircleChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleChartController.m; sourceTree = "<group>"; };
 		5A7119CF1E4D593F00D48FA5 /* CirclePercentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclePercentView.h; sourceTree = "<group>"; };
@@ -722,6 +728,7 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5A4998961E55981400A140ED /* buttonWithCheck */,
 				5A49988F1E5590B600A140ED /* LongPressButton */,
 				5AA735ED1E52F54900B8CB4C /* MaskView */,
 				5AF4B0511E51B3C4004CF90D /* AlertView */,
@@ -1425,6 +1432,17 @@
 			name = LongPressButton;
 			sourceTree = "<group>";
 		};
+		5A4998961E55981400A140ED /* buttonWithCheck */ = {
+			isa = PBXGroup;
+			children = (
+				5A4998981E55988400A140ED /* LoginButtonController.h */,
+				5A4998991E55988400A140ED /* LoginButtonController.m */,
+				5A49989B1E5598AD00A140ED /* WaitButton.h */,
+				5A49989C1E5598AD00A140ED /* WaitButton.m */,
+			);
+			name = buttonWithCheck;
+			sourceTree = "<group>";
+		};
 		5A7119CB1E4D551E00D48FA5 /* CircleChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1814,6 +1832,7 @@
 				5A39735C1E49A41C0096A27F /* AFHTTPSessionManager.m in Sources */,
 				5AA735F01E52F59400B8CB4C /* MaskViewController.m in Sources */,
 				5A3974171E49AEB70096A27F /* PopStrokeController.m in Sources */,
+				5A49989A1E55988400A140ED /* LoginButtonController.m in Sources */,
 				5A3973251E49A1B10096A27F /* StringAttribute.m in Sources */,
 				5A1C8A631E4C16EB001685AB /* BrokenLineController.m in Sources */,
 				5A39735F1E49A41C0096A27F /* AFURLRequestSerialization.m in Sources */,
@@ -1887,6 +1906,7 @@
 				5A39729A1E49A18E0096A27F /* NodePressAnimationView.m in Sources */,
 				5ACFDD5E1E4C58E700E563BA /* AniChartViewBaseView.m in Sources */,
 				5A3973131E49A1A40096A27F /* UIImageView+WebCache.m in Sources */,
+				5A49989D1E5598AD00A140ED /* WaitButton.m in Sources */,
 				5A7119E51E4DA1AC00D48FA5 /* PieChartController.m in Sources */,
 				5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */,
 				5A3973C21E49A8770096A27F /* AbstractAdapter.m in Sources */,
