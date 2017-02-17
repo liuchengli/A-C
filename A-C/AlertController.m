@@ -26,6 +26,15 @@
     
     {
     
+        
+        UIImageView *image = [[UIImageView alloc]initWithFrame:CGRectMake(0, 150, self.contentView.width-100, self.contentView.height-150)];
+        image.image        = [UIImage imageNamed:@"启动页"];
+        [self.contentView addSubview:image];
+    
+    }
+    
+    {
+    
         UIButton *firstButton  = [[UIButton alloc] initWithFrame:CGRectMake(Width/2-50, 50, 100, 50)];
         firstButton.backgroundColor = [UIColor lightGrayColor];
         firstButton.titleLabel.font        = [UIFont HeitiSCWithFontSize:16.f];
@@ -67,10 +76,13 @@
 // 按钮弹窗
 - (void)ButtonsEvent2{
     
-    ButtonShowView * buttonShow  = [ButtonShowView new];
-    buttonShow.message           = @"欢迎体验iOS刘成利的弹窗~";
-    buttonShow.buttonsTitleArray = @[@"确定"];
-    buttonShow.buttonsColorArray = @[[UIColor blackColor],[UIColor blueColor]];
+  
+    
+  
+    ButtonShowView * buttonShow  = [[ButtonShowView alloc]initWithFrame:self.contentView.bounds];
+    buttonShow.message           = @"欢迎体验iOS刘成利的弹窗~有何指正之处速速交流";
+    buttonShow.buttonsTitleArray = @[@"取消",@"确定"];
+    buttonShow.buttonsColorArray = @[[UIColor blueColor],[UIColor redColor]];
     [buttonShow showButtonViewOn:self.contentView];
     buttonShow.eventBlock = ^(NSInteger tag){
         

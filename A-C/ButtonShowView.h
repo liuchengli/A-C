@@ -23,4 +23,16 @@ typedef void (^CallbackEvent) (NSInteger tag);
  */
 @property (nonatomic, copy) CallbackEvent eventBlock;
 
+/* 
+ 
+     
+    请指定初始化尺寸大小initWithFrame，用new方式初始化按钮没有点击事件，因为这样弹窗尺寸为（0.0，0.0，0.0，0.0）
+     [[ButtonShowView alloc]initWithFrame:self.contentView.bounds];
+ 
+ 
+ 
+ 
+ */
+
+
 @end
