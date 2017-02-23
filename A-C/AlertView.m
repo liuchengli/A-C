@@ -7,12 +7,10 @@
 //
 
 #import "AlertView.h"
-#import "GCD.h"
-#import "Header.h"
 #import "UIFont+Fonts.h"
 #import "UIView+SetRect.h"
 #import "POP.h"
-#import "NSString+HexColors.h"
+
 
 @implementation AlertView
 

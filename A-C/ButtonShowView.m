@@ -11,7 +11,7 @@
 #import "UIFont+Fonts.h"
 #import "UIView+SetRect.h"
 #import "POP.h"
-#import "NSString+HexColors.h"
+
 
 @interface ButtonShowView ()
 
