@@ -190,6 +190,7 @@
 		5ACFDD611E4C5F2C00E563BA /* RedAndGreenBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD601E4C5F2C00E563BA /* RedAndGreenBarView.m */; };
 		5ACFDD641E4C5F5A00E563BA /* UpDownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD631E4C5F5A00E563BA /* UpDownController.m */; };
 		5ACFDD681E4C72B500E563BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACFDD671E4C72B500E563BA /* Assets.xcassets */; };
+		5AD625701E6049AF002ED860 /* TextScrollShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6256F1E6049AF002ED860 /* TextScrollShowView.m */; };
 		5AF4B0401E51966D004CF90D /* SinglePercentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B03F1E51966D004CF90D /* SinglePercentController.m */; };
 		5AF4B0491E5198ED004CF90D /* LXCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0421E5198ED004CF90D /* LXCircleAnimationView.m */; };
 		5AF4B04A1E5198ED004CF90D /* LXGradientProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0441E5198ED004CF90D /* LXGradientProcessView.m */; };
@@ -588,6 +589,8 @@
 		5ACFDD621E4C5F5A00E563BA /* UpDownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpDownController.h; sourceTree = "<group>"; };
 		5ACFDD631E4C5F5A00E563BA /* UpDownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpDownController.m; sourceTree = "<group>"; };
 		5ACFDD671E4C72B500E563BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD6256E1E6049AF002ED860 /* TextScrollShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextScrollShowView.h; sourceTree = "<group>"; };
+		5AD6256F1E6049AF002ED860 /* TextScrollShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextScrollShowView.m; sourceTree = "<group>"; };
 		5AF4B03E1E51966D004CF90D /* SinglePercentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePercentController.h; sourceTree = "<group>"; };
 		5AF4B03F1E51966D004CF90D /* SinglePercentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePercentController.m; sourceTree = "<group>"; };
 		5AF4B0411E5198ED004CF90D /* LXCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircleAnimationView.h; sourceTree = "<group>"; };
@@ -1662,6 +1665,8 @@
 				5AF4B0561E51BB45004CF90D /* AlertView.m */,
 				5AA735F11E52FE5700B8CB4C /* ButtonShowView.h */,
 				5AA735F21E52FE5700B8CB4C /* ButtonShowView.m */,
+				5AD6256E1E6049AF002ED860 /* TextScrollShowView.h */,
+				5AD6256F1E6049AF002ED860 /* TextScrollShowView.m */,
 			);
 			name = AlertView;
 			sourceTree = "<group>";
@@ -1809,6 +1814,7 @@
 				5A3973F11E49AE2D0096A27F /* IndexRange.m in Sources */,
 				5A3973B01E49A8240096A27F /* FullTitleVisualEffectViewController.m in Sources */,
 				5A3973BE1E49A85F0096A27F /* CellDataAdapter.m in Sources */,
+				5AD625701E6049AF002ED860 /* TextScrollShowView.m in Sources */,
 				5A7119E11E4D5B5B00D48FA5 /* Easing.c in Sources */,
 				5AF4B0501E51A531004CF90D /* BlurryViewController.m in Sources */,
 				5A3973071E49A1A40096A27F /* SDImageCache.m in Sources */,
