@@ -200,7 +200,7 @@
         scale.dynamicsMass        = 1.3;
         scale.dynamicsFriction    = 10.3;
         scale.springSpeed         = 20;
-        scale.springBounciness    = 15.64;
+        scale.springBounciness    = 15.64; 
         scale.delegate            = self;
         [self.messageView.layer pop_addAnimation:scale forKey:nil];
     
