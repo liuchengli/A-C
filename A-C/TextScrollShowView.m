@@ -43,9 +43,10 @@
         return;
     }
     
-    self.backgroundView = [[UIView alloc] initWithFrame:CGRectMake(50, 100, Width-100, 400)];
+    self.backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, Width-100, 400)];
     self.backgroundView.clipsToBounds      = YES;
     self.backgroundView.layer.cornerRadius = 10;
+    self.backgroundView.center             = contentView.center;
       // iOS8及以上支持此模糊
     UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
     UIVisualEffectView *blurView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
