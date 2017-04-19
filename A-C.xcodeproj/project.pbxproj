@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5A1C8A631E4C16EB001685AB /* BrokenLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C8A621E4C16EB001685AB /* BrokenLineController.m */; };
+		5A24A0AD1EA76DED00622FA9 /* LongPressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A24A0AC1EA76DED00622FA9 /* LongPressButton.m */; };
+		5A24A0B01EA76E5A00622FA9 /* LongPressButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A24A0AF1EA76E5A00622FA9 /* LongPressButtonController.m */; };
 		5A3972331E499F560096A27F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3972321E499F560096A27F /* main.m */; };
 		5A3972361E499F560096A27F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3972351E499F560096A27F /* AppDelegate.m */; };
 		5A3972391E499F560096A27F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3972381E499F560096A27F /* ViewController.m */; };
@@ -204,6 +206,10 @@
 /* Begin PBXFileReference section */
 		5A1C8A611E4C16EB001685AB /* BrokenLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrokenLineController.h; sourceTree = "<group>"; };
 		5A1C8A621E4C16EB001685AB /* BrokenLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokenLineController.m; sourceTree = "<group>"; };
+		5A24A0AB1EA76DED00622FA9 /* LongPressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressButton.h; sourceTree = "<group>"; };
+		5A24A0AC1EA76DED00622FA9 /* LongPressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressButton.m; sourceTree = "<group>"; };
+		5A24A0AE1EA76E5A00622FA9 /* LongPressButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressButtonController.h; sourceTree = "<group>"; };
+		5A24A0AF1EA76E5A00622FA9 /* LongPressButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressButtonController.m; sourceTree = "<group>"; };
 		5A39722E1E499F560096A27F /* A-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3972321E499F560096A27F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A3972341E499F560096A27F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -620,6 +626,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A24A0AA1EA76C3900622FA9 /* LongPressButton */ = {
+			isa = PBXGroup;
+			children = (
+				5A24A0AB1EA76DED00622FA9 /* LongPressButton.h */,
+				5A24A0AC1EA76DED00622FA9 /* LongPressButton.m */,
+				5A24A0AE1EA76E5A00622FA9 /* LongPressButtonController.h */,
+				5A24A0AF1EA76E5A00622FA9 /* LongPressButtonController.m */,
+			);
+			name = LongPressButton;
+			sourceTree = "<group>";
+		};
 		5A3972251E499F560096A27F = {
 			isa = PBXGroup;
 			children = (
@@ -734,6 +751,7 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5A24A0AA1EA76C3900622FA9 /* LongPressButton */,
 				5A4998961E55981400A140ED /* buttonWithCheck */,
 				5A49988F1E5590B600A140ED /* LongPressButton */,
 				5AA735ED1E52F54900B8CB4C /* MaskView */,
@@ -1820,6 +1838,7 @@
 				5A3973071E49A1A40096A27F /* SDImageCache.m in Sources */,
 				5ACFDD5D1E4C58E700E563BA /* AniChartView.m in Sources */,
 				5A39727F1E49A1650096A27F /* FBShimmeringView.m in Sources */,
+				5A24A0B01EA76E5A00622FA9 /* LongPressButtonController.m in Sources */,
 				5A3973091E49A1A40096A27F /* SDWebImageDecoder.m in Sources */,
 				5AC991C31E4B106D008B52AC /* DrawMarqueeView.m in Sources */,
 				5A3973E61E49ACA90096A27F /* BackgroundLineView.m in Sources */,
@@ -1842,6 +1861,7 @@
 				5A3972751E49A15B0096A27F /* GCDQueue.m in Sources */,
 				5A3972741E49A15B0096A27F /* GCDGroup.m in Sources */,
 				5A39735C1E49A41C0096A27F /* AFHTTPSessionManager.m in Sources */,
+				5A24A0AD1EA76DED00622FA9 /* LongPressButton.m in Sources */,
 				5AA735F01E52F59400B8CB4C /* MaskViewController.m in Sources */,
 				5A3974171E49AEB70096A27F /* PopStrokeController.m in Sources */,
 				5A49989A1E55988400A140ED /* LoginButtonController.m in Sources */,

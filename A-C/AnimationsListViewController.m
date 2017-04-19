@@ -36,6 +36,7 @@
 #import "LoginButtonController.h"
 #import "AlertController.h"
 #import "MaskViewController.h"
+#import "LongPressButtonController.h"
 
 
 /* 金融图表 */
@@ -236,10 +237,10 @@
                        [Item itemWithName:@"登录校验按钮" object:[LoginButtonController class]],
                        [Item itemWithName:@"view模糊" object:[BlurryViewController class]],
                        [Item itemWithName:@"弹窗" object:[AlertController class]],
-                       [Item itemWithName:@"蒙版引导" object:[MaskViewController class]]
+                       [Item itemWithName:@"蒙版引导" object:[MaskViewController class]],
+                       [Item itemWithName:@"长按拖拽" object:[LongPressButtonController class]]
                        
                        ];
-    
     
     
     // 图表数据
