@@ -37,7 +37,7 @@
 #import "AlertController.h"
 #import "MaskViewController.h"
 #import "LongPressButtonController.h"
-
+#import "ViewInsidePopController.h"
 
 /* 金融图表 */
 #import "FormController.h"
@@ -48,6 +48,7 @@
 #import "CircleChartController.h"
 #import "PieChartController.h"
 #import "SinglePercentController.h"
+#import "KLineViewController.h"
 
 
 @interface AnimationsListViewController () <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate, DefaultNotificationCenterDelegate>
@@ -238,7 +239,8 @@
                        [Item itemWithName:@"view模糊" object:[BlurryViewController class]],
                        [Item itemWithName:@"弹窗" object:[AlertController class]],
                        [Item itemWithName:@"蒙版引导" object:[MaskViewController class]],
-                       [Item itemWithName:@"长按拖拽" object:[LongPressButtonController class]]
+                       [Item itemWithName:@"长按拖拽" object:[LongPressButtonController class]],
+                       [Item itemWithName:@"view内缩弹窗" object:[ViewInsidePopController class]]
                        
                        ];
     
@@ -251,7 +253,8 @@
                         [Item itemWithName:@"上下柱状图" object:[UpDownController class]],
                         [Item itemWithName:@"环状饼图" object:[CircleChartController class]],
                         [Item itemWithName:@"实心饼图" object:[PieChartController class]],
-                        [Item itemWithName:@"单一百分比图" object:[SinglePercentController class]]
+                        [Item itemWithName:@"单一百分比图" object:[SinglePercentController class]],
+                        [Item itemWithName:@"K线图" object:[KLineViewController class]]
                   
                         ];
     

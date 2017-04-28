@@ -28,7 +28,7 @@
      Email:   liu_cheng_li@qq.com
      
      CSDN博客: http://blog.csdn.net/it_liuchengli
-     Github: https://github.com/liuchengli
+     Github:  https://github.com/liuchengli
      
      
      来北京第一个公司师从游贤明，感谢指导和借鉴
