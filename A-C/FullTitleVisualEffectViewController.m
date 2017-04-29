@@ -23,8 +23,26 @@
 
     [super buildTitleView];
     
+    
+    UIVisualEffect *effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+    switch (self.TitleVisualEffect) {
+        case blackEffect:
+            effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+            break;
+        case whiteEffect:
+            effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+            break;
+        case lightEffect:
+            effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
+            break;
+            
+        default:
+             effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+            break;
+    }
+    
     // 添加模糊效果
-    self.effectView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight]];
+    self.effectView = [[UIVisualEffectView alloc] initWithEffect:effect];
     self.effectView.frame                  = self.titleView.bounds;
     self.effectView.userInteractionEnabled = YES;
     [self.titleView addSubview:self.effectView];
@@ -35,9 +53,9 @@
     [self.effectView.contentView addSubview:self.vibrancyEffectView];
     
     // Back button.
-    UIImage  *image      = [UIImage imageNamed:@"backIconTypeTwo"];
+    UIImage  *image      = [UIImage imageNamed:@"backIcon"];
     UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 64)];
-    backButton.center    = CGPointMake(20, self.titleView.middleY);
+    backButton.center    = CGPointMake(20, self.titleView.middleY+10);
     [backButton setImage:image forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(popSelf) forControlEvents:UIControlEventTouchUpInside];
     
@@ -48,7 +66,8 @@
     headlinelabel.textColor     = [UIColor colorWithRed:0.329  green:0.329  blue:0.329 alpha:1];
     headlinelabel.text          = self.title;
     [headlinelabel sizeToFit];
-    headlinelabel.center        = self.titleView.middlePoint;
+//    headlinelabel.center        = self.titleView.middlePoint;
+    headlinelabel.center        = CGPointMake(Width/2, self.titleView.height/2+10);
     [_vibrancyEffectView.contentView addSubview:backButton];
     [_vibrancyEffectView.contentView addSubview:headlinelabel];
 }
