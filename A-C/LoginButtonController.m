@@ -23,7 +23,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
 //    [self.contentView.layer addSublayer: [self backgroundLayer]];
-    self.contentView.backgroundColor = [UIColor purpleColor];
+    self.contentView.backgroundColor = [UIColor orangeColor];
     
     
     WaitButton *login = [[WaitButton alloc]initWithFrame:CGRectMake(0, 0, 200, 44)];
