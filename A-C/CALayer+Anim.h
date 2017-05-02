@@ -1,4 +1,5 @@
-
+//  Created by 刘成利 on 2016/3/11.
+//  Copyright © 2016年 刘成利. All rights reserved.
 #import <QuartzCore/QuartzCore.h>
 
 @interface CALayer (Anim)
