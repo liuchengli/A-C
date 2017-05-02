@@ -24,6 +24,7 @@
     [super viewDidLoad];
 
     
+    
     self.view.backgroundColor = [UIColor blackColor];
     self.titleView.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.3]; //导航栏背景色
     
@@ -31,6 +32,17 @@
     self.buttomView = [[UIView alloc]initWithFrame:self.view.bounds];
     self.buttomView.backgroundColor = [UIColor cyanColor];
     [self.backgroundView addSubview:self.buttomView];
+    
+    {
+        
+        UILabel *label   = [[UILabel alloc]initWithFrame:CGRectMake(0, 200, self.contentView.frame.size.width, 50)];
+        label.textColor     = [UIColor whiteColor];
+        label.text          = @"请点屏幕看效果！";
+        label.textAlignment = NSTextAlignmentCenter;
+        [self.buttomView addSubview:label];
+        
+    }
+
     
     // 半黑透明
     UIView * maskView = [[UIView alloc]initWithFrame:self.view.bounds];
@@ -57,7 +69,7 @@
     UIButton * closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     closeBtn.frame = CGRectMake(15, 0, 50, 40);
     [closeBtn setTitle:@"关闭" forState:UIControlStateNormal];
-    [closeBtn setTitleColor:[UIColor colorWithRed:217/255.0 green:110/255.0 blue:90/255.0 alpha:1] forState:UIControlStateNormal];
+    [closeBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [closeBtn addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
     [self.topView addSubview:closeBtn];
     

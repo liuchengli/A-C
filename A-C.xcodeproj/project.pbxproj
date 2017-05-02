@@ -180,6 +180,7 @@
 		5A99FA2F1EB0B4AF0068B48E /* ViewInsidePopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA2E1EB0B4AF0068B48E /* ViewInsidePopController.m */; };
 		5A99FA351EB0C6CA0068B48E /* PopDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA321EB0C6CA0068B48E /* PopDismissAnimation.m */; };
 		5A99FA361EB0C6CA0068B48E /* PopPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA341EB0C6CA0068B48E /* PopPresentAnimation.m */; };
+		5A99FA3E1EB878D00068B48E /* CellHeightChangeControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA3D1EB878D00068B48E /* CellHeightChangeControllerViewController.m */; };
 		5AA735F01E52F59400B8CB4C /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA735EF1E52F59400B8CB4C /* MaskViewController.m */; };
 		5AA735F31E52FE5700B8CB4C /* ButtonShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA735F21E52FE5700B8CB4C /* ButtonShowView.m */; };
 		5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */; };
@@ -582,6 +583,8 @@
 		5A99FA321EB0C6CA0068B48E /* PopDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopDismissAnimation.m; sourceTree = "<group>"; };
 		5A99FA331EB0C6CA0068B48E /* PopPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopPresentAnimation.h; sourceTree = "<group>"; };
 		5A99FA341EB0C6CA0068B48E /* PopPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopPresentAnimation.m; sourceTree = "<group>"; };
+		5A99FA3C1EB878D00068B48E /* CellHeightChangeControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHeightChangeControllerViewController.h; sourceTree = "<group>"; };
+		5A99FA3D1EB878D00068B48E /* CellHeightChangeControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHeightChangeControllerViewController.m; sourceTree = "<group>"; };
 		5AA735EE1E52F59400B8CB4C /* MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
 		5AA735EF1E52F59400B8CB4C /* MaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
 		5AA735F11E52FE5700B8CB4C /* ButtonShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonShowView.h; sourceTree = "<group>"; };
@@ -1598,6 +1601,8 @@
 		5A99FA371EB1A67A0068B48E /* CellDynamicHeight */ = {
 			isa = PBXGroup;
 			children = (
+				5A99FA3C1EB878D00068B48E /* CellHeightChangeControllerViewController.h */,
+				5A99FA3D1EB878D00068B48E /* CellHeightChangeControllerViewController.m */,
 			);
 			name = CellDynamicHeight;
 			sourceTree = "<group>";
@@ -1903,6 +1908,7 @@
 				5A3972771E49A15B0096A27F /* GCDTimer.m in Sources */,
 				5A3972DD1E49A1980096A27F /* POPLayerExtras.mm in Sources */,
 				5A64EE701E55EF07001A8890 /* UIView+Glow.m in Sources */,
+				5A99FA3E1EB878D00068B48E /* CellHeightChangeControllerViewController.m in Sources */,
 				5AF4B0491E5198ED004CF90D /* LXCircleAnimationView.m in Sources */,
 				5A39735E1E49A41C0096A27F /* AFSecurityPolicy.m in Sources */,
 				5A3973C81E49A8950096A27F /* TableViewSectionItem.m in Sources */,

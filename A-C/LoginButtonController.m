@@ -8,6 +8,7 @@
 
 #import "LoginButtonController.h"
 #import "WaitButton.h"
+#import "UIFont+Fonts.h"
 
 @interface LoginButtonController ()
 
@@ -25,6 +26,12 @@
 //    [self.contentView.layer addSublayer: [self backgroundLayer]];
     self.contentView.backgroundColor = [UIColor orangeColor];
     
+    UILabel *label   = [[UILabel alloc]initWithFrame:CGRectMake(0, 200, self.contentView.frame.size.width, 50)];
+    label.textColor     = [UIColor whiteColor];
+    label.text          = @"请点击下方按钮看效果！";
+    label.font          = [UIFont HeitiSCWithFontSize:17.f];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.contentView addSubview:label];
     
     WaitButton *login = [[WaitButton alloc]initWithFrame:CGRectMake(0, 0, 200, 44)];
     login.center = CGPointMake(self.contentView.center.x, self.contentView.center.y);

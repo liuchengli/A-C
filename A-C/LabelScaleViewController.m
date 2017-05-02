@@ -2,8 +2,8 @@
 //  LabelScaleViewController.m
 //  Animations
 //
-//  Created by YouXianMing on 15/12/17.
-//  Copyright © 2015年 YouXianMing. All rights reserved.
+//  Created by 刘成利 on 16/12/17.
+//  Copyright © 2015年 刘成利. All rights reserved.
 //
 
 #import "LabelScaleViewController.h"
