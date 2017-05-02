@@ -2,8 +2,8 @@
 //  GetKlinData.h
 //  kline
 //
-//  Created by HuangZiJia on 2016/10/27.
-//  Copyright © 2016年 GuangZhou Heng Rui Asset Management Co. Ltd. All rights reserved.
+//  Created by 刘成利 on 2016/8/21.
+//  Copyright © 2017年 刘成利. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
