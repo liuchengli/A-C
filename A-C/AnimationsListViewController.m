@@ -31,6 +31,7 @@
 #import "LabelScaleViewController.h"
 #import "DrawMarqueeViewController.h"
 #import "MixedColorProgressViewController.h"
+#import "FireViewController.h"
 #import "BlurryViewController.h"
 #import "LongPressButtonViewController.h"
 #import "LoginButtonController.h"
@@ -236,6 +237,7 @@
                        [Item itemWithName:@"底色混色文字" object:[MixedColorProgressViewController class]],
                        [Item itemWithName:@"长按按钮" object:[LongPressButtonViewController class]],
                        [Item itemWithName:@"登录校验按钮" object:[LoginButtonController class]],
+                       [Item itemWithName:@"粒子火焰" object:[FireViewController class]],
                        [Item itemWithName:@"view模糊" object:[BlurryViewController class]],
                        [Item itemWithName:@"弹窗" object:[AlertController class]],
                        [Item itemWithName:@"蒙版引导" object:[MaskViewController class]],

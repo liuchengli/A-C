@@ -204,6 +204,7 @@
 		5ACFDD641E4C5F5A00E563BA /* UpDownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDD631E4C5F5A00E563BA /* UpDownController.m */; };
 		5ACFDD681E4C72B500E563BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACFDD671E4C72B500E563BA /* Assets.xcassets */; };
 		5AD625701E6049AF002ED860 /* TextScrollShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6256F1E6049AF002ED860 /* TextScrollShowView.m */; };
+		5AE51D0F1EB963D600231F2C /* FireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE51D0E1EB963D600231F2C /* FireViewController.m */; };
 		5AF4B0401E51966D004CF90D /* SinglePercentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B03F1E51966D004CF90D /* SinglePercentController.m */; };
 		5AF4B0491E5198ED004CF90D /* LXCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0421E5198ED004CF90D /* LXCircleAnimationView.m */; };
 		5AF4B04A1E5198ED004CF90D /* LXGradientProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4B0441E5198ED004CF90D /* LXGradientProcessView.m */; };
@@ -630,6 +631,8 @@
 		5ACFDD671E4C72B500E563BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AD6256E1E6049AF002ED860 /* TextScrollShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextScrollShowView.h; sourceTree = "<group>"; };
 		5AD6256F1E6049AF002ED860 /* TextScrollShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextScrollShowView.m; sourceTree = "<group>"; };
+		5AE51D0D1EB963D600231F2C /* FireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireViewController.h; sourceTree = "<group>"; };
+		5AE51D0E1EB963D600231F2C /* FireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireViewController.m; sourceTree = "<group>"; };
 		5AF4B03E1E51966D004CF90D /* SinglePercentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePercentController.h; sourceTree = "<group>"; };
 		5AF4B03F1E51966D004CF90D /* SinglePercentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePercentController.m; sourceTree = "<group>"; };
 		5AF4B0411E5198ED004CF90D /* LXCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircleAnimationView.h; sourceTree = "<group>"; };
@@ -829,6 +832,9 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5A99FA411EB8CB5F0068B48E /* PagePoint */,
+				5A99FA401EB8CB4D0068B48E /* Fire */,
+				5A99FA3F1EB8CAD50068B48E /* ButtonGather */,
 				5A99FA381EB1A6B50068B48E /* CellDynamicRoll */,
 				5A99FA371EB1A67A0068B48E /* CellDynamicHeight */,
 				5A99FA2C1EB0B4500068B48E /* ViewInsidePop */,
@@ -1614,6 +1620,29 @@
 			name = CellDynamicRoll;
 			sourceTree = "<group>";
 		};
+		5A99FA3F1EB8CAD50068B48E /* ButtonGather */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ButtonGather;
+			sourceTree = "<group>";
+		};
+		5A99FA401EB8CB4D0068B48E /* Fire */ = {
+			isa = PBXGroup;
+			children = (
+				5AE51D0D1EB963D600231F2C /* FireViewController.h */,
+				5AE51D0E1EB963D600231F2C /* FireViewController.m */,
+			);
+			name = Fire;
+			sourceTree = "<group>";
+		};
+		5A99FA411EB8CB5F0068B48E /* PagePoint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PagePoint;
+			sourceTree = "<group>";
+		};
 		5AA735ED1E52F54900B8CB4C /* MaskView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1955,6 +1984,7 @@
 				5A39737D1E49A4290096A27F /* UIProgressView+AFNetworking.m in Sources */,
 				5A3973F11E49AE2D0096A27F /* IndexRange.m in Sources */,
 				5A3973B01E49A8240096A27F /* FullTitleVisualEffectViewController.m in Sources */,
+				5AE51D0F1EB963D600231F2C /* FireViewController.m in Sources */,
 				5A3973BE1E49A85F0096A27F /* CellDataAdapter.m in Sources */,
 				5AD625701E6049AF002ED860 /* TextScrollShowView.m in Sources */,
 				5A7119E11E4D5B5B00D48FA5 /* Easing.c in Sources */,
