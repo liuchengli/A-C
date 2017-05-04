@@ -23,6 +23,7 @@
 @property (nonatomic, strong) UIView    *redView;
 @property (nonatomic, strong) UIView    *scaleView;
 @property (nonatomic, strong) UIView    *redSideView;
+@property (nonatomic, strong) UIView    *colorView;
 @property (nonatomic, strong) GCDTimer      *timer;
 //@property (nonatomic, strong) dispatch_source_t *timer;
 
@@ -48,9 +49,9 @@
     
     
     // 左右抖动label
-    self.wrongNotice   = [[UILabel alloc]initWithFrame:CGRectMake(Width/2-150, 130*ScreenHeightRate, 300, 20)];
+    self.wrongNotice   = [[UILabel alloc]initWithFrame:CGRectMake(Width/2-150, 100*ScreenHeightRate, 300, 20)];
     self.wrongNotice.textColor     = [@"ff0000" hexColor];
-    self.wrongNotice.text          = @"抖动警告提示";
+    self.wrongNotice.text          = @"文字警告提示";
     self.wrongNotice.font          = [UIFont HeitiSCWithFontSize:18.f];
     self.wrongNotice.textAlignment = NSTextAlignmentCenter;
     [self.contentView addSubview:self.wrongNotice];
@@ -66,7 +67,7 @@
         
         UILabel *label   = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 300, 50)];
         label.textColor     = [@"ff0000" hexColor];
-        label.text          = @"view抖动警告";
+        label.text          = @"抖动警告";
         label.font          = [UIFont HeitiSCWithFontSize:16.f];
         label.textAlignment = NSTextAlignmentCenter;
         
@@ -140,9 +141,30 @@
         
         [self.redSideView addSubview:label];
         [self.contentView addSubview:self.redSideView];
-        
-
     
+    }
+    
+    
+    // 背景色警告
+    {
+        self.colorView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 600*ScreenHeightRate, 300, 50)];
+        self.colorView.layer.cornerRadius  = 5;
+        self.colorView.layer.masksToBounds = YES;
+        self.colorView.layer.borderWidth   = 1;
+        
+        UILabel *label   = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 300, 50)];
+        label.textColor     = [UIColor grayColor];
+        label.text          = @"颜色闪烁警告！";
+        label.font          = [UIFont HeitiSCWithFontSize:17.f];
+        label.textAlignment = NSTextAlignmentCenter;
+        
+        [self.colorView addSubview:label];
+        [self.contentView addSubview:self.colorView];
+       
+      
+        
+        
+        
     
     }
     
@@ -151,7 +173,7 @@
     _md_get_weakSelf();
     [_timer event:^{
         
-         [weakSelf showPasswordError];
+         [weakSelf showYourself];
         
     } timeIntervalWithSecs:3 delaySecs:0.5f];
     
@@ -162,29 +184,16 @@
 
 
 
-// 密码错误提示
-- (void)showPasswordError{
-    
-    
-    if (self.wrongNotice){
-        
-      
+// 展现效果
+- (void)showYourself{
+
         [self.wrongNotice.layer shake];
         [self.shakeView.layer shake];
         [self.redView.layer flash:0.2 repeat:2];
         [self.scaleView.layer scale:1.15 repeat:2];
         [self.redSideView.layer shadowsFlash:0.2 repeat:2];
-        
-      
-        
-        
-    }
+        [self.colorView.layer colorFlash:0.2 repeat:2];
     
-
-    
-    
-    
-   
     
 }
 

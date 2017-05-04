@@ -21,7 +21,13 @@
 
 
 /*
- * 阴影闪烁
+ * 边框闪烁
  */
 - (void)shadowsFlash:(float)duration repeat:(float)repeatCount;
+
+
+/*
+ * 背景颜色闪烁(默认红色)
+ */
+- (void)colorFlash:(float)duration repeat:(float)repeatCount;
 @end

@@ -73,4 +73,21 @@
     [self addAnimation:anim forKey:@"shadow"];
 
 }
+
+- (void)colorFlash:(float)duration repeat:(float)repeatCount{
+
+
+    CABasicAnimation *anim = [CABasicAnimation animationWithKeyPath:@"backgroundColor"];
+    anim.fromValue  = (__bridge id _Nullable)self.backgroundColor;
+    anim.toValue    = (__bridge id _Nullable)([UIColor redColor].CGColor);
+    anim.duration   = duration;
+    anim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+    anim.repeatCount = repeatCount;
+    anim.autoreverses = YES;
+    [self addAnimation:anim forKey:@"shadow"];
+
+    
+
+}
+
 @end
