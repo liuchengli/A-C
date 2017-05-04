@@ -49,17 +49,21 @@
     
     
     // 左右抖动label
-    self.wrongNotice   = [[UILabel alloc]initWithFrame:CGRectMake(Width/2-150, 100*ScreenHeightRate, 300, 20)];
+    {
+        
+    self.wrongNotice   = [[UILabel alloc]initWithFrame:CGRectMake(Width/2-150, 600*ScreenHeightRate, 300, 20)];
     self.wrongNotice.textColor     = [@"ff0000" hexColor];
     self.wrongNotice.text          = @"文字警告提示";
     self.wrongNotice.font          = [UIFont HeitiSCWithFontSize:18.f];
     self.wrongNotice.textAlignment = NSTextAlignmentCenter;
     [self.contentView addSubview:self.wrongNotice];
+        
+    }
     
     
     // view抖动
     {
-        self.shakeView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 200*ScreenHeightRate, 300, 50)];
+        self.shakeView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 100*ScreenHeightRate, 300, 50)];
         self.shakeView.layer.cornerRadius  = 5;
         self.shakeView.layer.masksToBounds = YES;
         self.shakeView.layer.borderWidth   = 1;
@@ -80,7 +84,7 @@
     // 闪烁
     {
     
-        self.redView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 300*ScreenHeightRate, 300, 50)];
+        self.redView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 200*ScreenHeightRate, 300, 50)];
         self.redView.layer.cornerRadius  = 5;
         self.redView.layer.masksToBounds = YES;
         self.redView.layer.borderWidth   = 1;
@@ -103,7 +107,7 @@
     // 放大
     {
     
-        self.scaleView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 400*ScreenHeightRate, 300, 50)];
+        self.scaleView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 300*ScreenHeightRate, 300, 50)];
         self.scaleView.layer.cornerRadius  = 5;
         self.scaleView.layer.masksToBounds = YES;
         self.scaleView.layer.borderWidth   = 1;
@@ -123,7 +127,7 @@
     // 红边提示
     {
     
-        self.redSideView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 500*ScreenHeightRate, 300, 50)];
+        self.redSideView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 400*ScreenHeightRate, 300, 50)];
         self.redSideView.layer.cornerRadius  = 5;
 //        self.redSideView.layer.masksToBounds = YES;
         self.redSideView.layer.borderWidth   = 1;
@@ -147,7 +151,7 @@
     
     // 背景色警告
     {
-        self.colorView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 600*ScreenHeightRate, 300, 50)];
+        self.colorView     = [[UIView alloc]initWithFrame:CGRectMake(Width/2-150, 500*ScreenHeightRate, 300, 50)];
         self.colorView.layer.cornerRadius  = 5;
         self.colorView.layer.masksToBounds = YES;
         self.colorView.layer.borderWidth   = 1;
