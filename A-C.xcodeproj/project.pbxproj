@@ -170,6 +170,10 @@
 		5A406CC11EC09DB000008EE9 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CBD1EC09DB000008EE9 /* StudentModel.m */; };
 		5A406CC81EC09E4F00008EE9 /* RotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CC51EC09E4F00008EE9 /* RotateView.m */; };
 		5A406CC91EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CC71EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m */; };
+		5A406CCD1EC0AA5900008EE9 /* TextGradualChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CCC1EC0AA5900008EE9 /* TextGradualChangeController.m */; };
+		5A406CD61EC0AC5E00008EE9 /* LazyFadeInLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CD11EC0AC5E00008EE9 /* LazyFadeInLayer.m */; };
+		5A406CD71EC0AC5E00008EE9 /* LazyFadeInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CD31EC0AC5E00008EE9 /* LazyFadeInView.m */; };
+		5A406CD81EC0AC5E00008EE9 /* NSString+LFEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CD51EC0AC5E00008EE9 /* NSString+LFEmoji.m */; };
 		5A4998921E5590F600A140ED /* LongPressButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998911E5590F600A140ED /* LongPressButtonViewController.m */; };
 		5A4998951E5590FE00A140ED /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998941E5590FE00A140ED /* PressAnimationButton.m */; };
 		5A49989A1E55988400A140ED /* LoginButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998991E55988400A140ED /* LoginButtonController.m */; };
@@ -571,6 +575,15 @@
 		5A406CC51EC09E4F00008EE9 /* RotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateView.m; sourceTree = "<group>"; };
 		5A406CC61EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RotateAnimationProtocol.h"; sourceTree = "<group>"; };
 		5A406CC71EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RotateAnimationProtocol.m"; sourceTree = "<group>"; };
+		5A406CCB1EC0AA5900008EE9 /* TextGradualChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextGradualChangeController.h; sourceTree = "<group>"; };
+		5A406CCC1EC0AA5900008EE9 /* TextGradualChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextGradualChangeController.m; sourceTree = "<group>"; };
+		5A406CCF1EC0AC5E00008EE9 /* LazyFadeIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyFadeIn.h; sourceTree = "<group>"; };
+		5A406CD01EC0AC5E00008EE9 /* LazyFadeInLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyFadeInLayer.h; sourceTree = "<group>"; };
+		5A406CD11EC0AC5E00008EE9 /* LazyFadeInLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyFadeInLayer.m; sourceTree = "<group>"; };
+		5A406CD21EC0AC5E00008EE9 /* LazyFadeInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LazyFadeInView.h; sourceTree = "<group>"; };
+		5A406CD31EC0AC5E00008EE9 /* LazyFadeInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LazyFadeInView.m; sourceTree = "<group>"; };
+		5A406CD41EC0AC5E00008EE9 /* NSString+LFEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LFEmoji.h"; sourceTree = "<group>"; };
+		5A406CD51EC0AC5E00008EE9 /* NSString+LFEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LFEmoji.m"; sourceTree = "<group>"; };
 		5A4998901E5590F600A140ED /* LongPressButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressButtonViewController.h; sourceTree = "<group>"; };
 		5A4998911E5590F600A140ED /* LongPressButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressButtonViewController.m; sourceTree = "<group>"; };
 		5A4998931E5590FE00A140ED /* PressAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressAnimationButton.h; sourceTree = "<group>"; };
@@ -806,6 +819,7 @@
 		5A3972491E499FB90096A27F /* UI-Component(UI组件) */ = {
 			isa = PBXGroup;
 			children = (
+				5A406CCE1EC0AC5D00008EE9 /* LazyFadeInView */,
 				5A406CC21EC09E2600008EE9 /* RotateView */,
 				5A39743F1E49B0FC0096A27F /* NSString+Category */,
 				5A39743B1E49B0480096A27F /* StringRangeManager */,
@@ -852,6 +866,7 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5A406CCA1EC0A91D00008EE9 /* TextGradualChange */,
 				5A99FA411EB8CB5F0068B48E /* PagePoint */,
 				5A99FA401EB8CB4D0068B48E /* Fire */,
 				5A99FA3F1EB8CAD50068B48E /* ButtonGather */,
@@ -1565,6 +1580,29 @@
 			name = RotateView;
 			sourceTree = "<group>";
 		};
+		5A406CCA1EC0A91D00008EE9 /* TextGradualChange */ = {
+			isa = PBXGroup;
+			children = (
+				5A406CCB1EC0AA5900008EE9 /* TextGradualChangeController.h */,
+				5A406CCC1EC0AA5900008EE9 /* TextGradualChangeController.m */,
+			);
+			name = TextGradualChange;
+			sourceTree = "<group>";
+		};
+		5A406CCE1EC0AC5D00008EE9 /* LazyFadeInView */ = {
+			isa = PBXGroup;
+			children = (
+				5A406CCF1EC0AC5E00008EE9 /* LazyFadeIn.h */,
+				5A406CD01EC0AC5E00008EE9 /* LazyFadeInLayer.h */,
+				5A406CD11EC0AC5E00008EE9 /* LazyFadeInLayer.m */,
+				5A406CD21EC0AC5E00008EE9 /* LazyFadeInView.h */,
+				5A406CD31EC0AC5E00008EE9 /* LazyFadeInView.m */,
+				5A406CD41EC0AC5E00008EE9 /* NSString+LFEmoji.h */,
+				5A406CD51EC0AC5E00008EE9 /* NSString+LFEmoji.m */,
+			);
+			path = LazyFadeInView;
+			sourceTree = "<group>";
+		};
 		5A49988F1E5590B600A140ED /* LongPressButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -1966,6 +2004,7 @@
 				5A7119D71E4D5A6500D48FA5 /* CircleBarView.m in Sources */,
 				5A3973791E49A4290096A27F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				5A3973451E49A3580096A27F /* UIView+ScreensShot.m in Sources */,
+				5A406CD61EC0AC5E00008EE9 /* LazyFadeInLayer.m in Sources */,
 				5A3974561E49C84E0096A27F /* NSString+HexColors.m in Sources */,
 				5A3974261E49AF540096A27F /* PressScaleButton.m in Sources */,
 				5A39737F1E49A4290096A27F /* UIWebView+AFNetworking.m in Sources */,
@@ -1995,6 +2034,7 @@
 				5A3972931E49A18E0096A27F /* NodeModelCell.m in Sources */,
 				5AC991C21E4B106D008B52AC /* DrawMarqueeViewController.m in Sources */,
 				5A7119E01E4D5B5B00D48FA5 /* YXEasing.m in Sources */,
+				5A406CCD1EC0AA5900008EE9 /* TextGradualChangeController.m in Sources */,
 				5A39743A1E49AFF00096A27F /* UIImage+SolidColor.m in Sources */,
 				5A3972E11E49A1980096A27F /* POPVector.mm in Sources */,
 				5A39744C1E49B12D0096A27F /* Math.m in Sources */,
@@ -2102,6 +2142,7 @@
 				5A3974031E49AE8C0096A27F /* ControllerPopAnimator.m in Sources */,
 				5AC991A71E4AC967008B52AC /* CALayer+Anim.m in Sources */,
 				5A406CBE1EC09DB000008EE9 /* ClassHeaderView.m in Sources */,
+				5A406CD81EC0AC5E00008EE9 /* NSString+LFEmoji.m in Sources */,
 				5A3973AB1E49A8240096A27F /* CustomNavigationController.m in Sources */,
 				5A3972951E49A18E0096A27F /* NodeModelStrings.m in Sources */,
 				5A39735D1E49A41C0096A27F /* AFNetworkReachabilityManager.m in Sources */,
@@ -2115,6 +2156,7 @@
 				5AC991BC1E4B0FF9008B52AC /* MixedColorProgressViewController.m in Sources */,
 				5A3973D51E49AA440096A27F /* DemoViewController.m in Sources */,
 				5ACFDD4E1E4C36DA00E563BA /* UIBezierPath+curved.m in Sources */,
+				5A406CD71EC0AC5E00008EE9 /* LazyFadeInView.m in Sources */,
 				5A3973261E49A1B10096A27F /* FontAttribute.m in Sources */,
 				5A3973DF1E49AC850096A27F /* UITableView+CellClass.m in Sources */,
 				5A3973AC1E49A8240096A27F /* CustomNormalContentViewController.m in Sources */,

@@ -30,6 +30,7 @@
 #import "FlowLightLabelController.h"
 #import "LabelScaleViewController.h"
 #import "DrawMarqueeViewController.h"
+#import "TextGradualChangeController.h"
 #import "MixedColorProgressViewController.h"
 #import "FireViewController.h"
 #import "BlurryViewController.h"
@@ -230,11 +231,12 @@
 - (void)configureDataSource {
     
     // 动画数据
-    self.AnimArray = @[[Item itemWithName:@"晃动警告文字" object:[WarnShakeLabelController class]],
+    self.AnimArray = @[[Item itemWithName:@"警告效果" object:[WarnShakeLabelController class]],
                        [Item itemWithName:@"辉光文字" object:[GlowLabelController class]],
                        [Item itemWithName:@"闪亮文字" object:[FlowLightLabelController class]],
                        [Item itemWithName:@"复合缩放文字" object:[LabelScaleViewController class]],
                        [Item itemWithName:@"跑马灯文字" object:[DrawMarqueeViewController class]],
+                       [Item itemWithName:@"文本渐变显示" object:[TextGradualChangeController class]],
                        [Item itemWithName:@"底色混色文字" object:[MixedColorProgressViewController class]],
                        [Item itemWithName:@"长按按钮" object:[LongPressButtonViewController class]],
                        [Item itemWithName:@"登录校验按钮" object:[LoginButtonController class]],
