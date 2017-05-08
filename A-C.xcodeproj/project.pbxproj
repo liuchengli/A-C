@@ -164,6 +164,12 @@
 		5A39744C1E49B12D0096A27F /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A39744B1E49B12D0096A27F /* Math.m */; };
 		5A3974551E49C84E0096A27F /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974521E49C84E0096A27F /* HexColors.m */; };
 		5A3974561E49C84E0096A27F /* NSString+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3974541E49C84E0096A27F /* NSString+HexColors.m */; };
+		5A406CBE1EC09DB000008EE9 /* ClassHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CB71EC09DB000008EE9 /* ClassHeaderView.m */; };
+		5A406CBF1EC09DB000008EE9 /* ClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CB91EC09DB000008EE9 /* ClassModel.m */; };
+		5A406CC01EC09DB000008EE9 /* StudentInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CBB1EC09DB000008EE9 /* StudentInfoCell.m */; };
+		5A406CC11EC09DB000008EE9 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CBD1EC09DB000008EE9 /* StudentModel.m */; };
+		5A406CC81EC09E4F00008EE9 /* RotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CC51EC09E4F00008EE9 /* RotateView.m */; };
+		5A406CC91EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406CC71EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m */; };
 		5A4998921E5590F600A140ED /* LongPressButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998911E5590F600A140ED /* LongPressButtonViewController.m */; };
 		5A4998951E5590FE00A140ED /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998941E5590FE00A140ED /* PressAnimationButton.m */; };
 		5A49989A1E55988400A140ED /* LoginButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998991E55988400A140ED /* LoginButtonController.m */; };
@@ -180,7 +186,7 @@
 		5A99FA2F1EB0B4AF0068B48E /* ViewInsidePopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA2E1EB0B4AF0068B48E /* ViewInsidePopController.m */; };
 		5A99FA351EB0C6CA0068B48E /* PopDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA321EB0C6CA0068B48E /* PopDismissAnimation.m */; };
 		5A99FA361EB0C6CA0068B48E /* PopPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA341EB0C6CA0068B48E /* PopPresentAnimation.m */; };
-		5A99FA3E1EB878D00068B48E /* CellHeightChangeControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA3D1EB878D00068B48E /* CellHeightChangeControllerViewController.m */; };
+		5A99FA3E1EB878D00068B48E /* CellHeightChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FA3D1EB878D00068B48E /* CellHeightChangeController.m */; };
 		5AA735F01E52F59400B8CB4C /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA735EF1E52F59400B8CB4C /* MaskViewController.m */; };
 		5AA735F31E52FE5700B8CB4C /* ButtonShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA735F21E52FE5700B8CB4C /* ButtonShowView.m */; };
 		5AC991A31E4AC4F6008B52AC /* WarnShakeLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC991A21E4AC4F6008B52AC /* WarnShakeLabelController.m */; };
@@ -552,6 +558,19 @@
 		5A3974521E49C84E0096A27F /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		5A3974531E49C84E0096A27F /* NSString+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexColors.h"; sourceTree = "<group>"; };
 		5A3974541E49C84E0096A27F /* NSString+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexColors.m"; sourceTree = "<group>"; };
+		5A406CB61EC09DB000008EE9 /* ClassHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassHeaderView.h; sourceTree = "<group>"; };
+		5A406CB71EC09DB000008EE9 /* ClassHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassHeaderView.m; sourceTree = "<group>"; };
+		5A406CB81EC09DB000008EE9 /* ClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassModel.h; sourceTree = "<group>"; };
+		5A406CB91EC09DB000008EE9 /* ClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassModel.m; sourceTree = "<group>"; };
+		5A406CBA1EC09DB000008EE9 /* StudentInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoCell.h; sourceTree = "<group>"; };
+		5A406CBB1EC09DB000008EE9 /* StudentInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoCell.m; sourceTree = "<group>"; };
+		5A406CBC1EC09DB000008EE9 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		5A406CBD1EC09DB000008EE9 /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		5A406CC31EC09E4F00008EE9 /* RotateAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateAnimationProtocol.h; sourceTree = "<group>"; };
+		5A406CC41EC09E4F00008EE9 /* RotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateView.h; sourceTree = "<group>"; };
+		5A406CC51EC09E4F00008EE9 /* RotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateView.m; sourceTree = "<group>"; };
+		5A406CC61EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RotateAnimationProtocol.h"; sourceTree = "<group>"; };
+		5A406CC71EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RotateAnimationProtocol.m"; sourceTree = "<group>"; };
 		5A4998901E5590F600A140ED /* LongPressButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressButtonViewController.h; sourceTree = "<group>"; };
 		5A4998911E5590F600A140ED /* LongPressButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressButtonViewController.m; sourceTree = "<group>"; };
 		5A4998931E5590FE00A140ED /* PressAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressAnimationButton.h; sourceTree = "<group>"; };
@@ -584,8 +603,8 @@
 		5A99FA321EB0C6CA0068B48E /* PopDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopDismissAnimation.m; sourceTree = "<group>"; };
 		5A99FA331EB0C6CA0068B48E /* PopPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopPresentAnimation.h; sourceTree = "<group>"; };
 		5A99FA341EB0C6CA0068B48E /* PopPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopPresentAnimation.m; sourceTree = "<group>"; };
-		5A99FA3C1EB878D00068B48E /* CellHeightChangeControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHeightChangeControllerViewController.h; sourceTree = "<group>"; };
-		5A99FA3D1EB878D00068B48E /* CellHeightChangeControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHeightChangeControllerViewController.m; sourceTree = "<group>"; };
+		5A99FA3C1EB878D00068B48E /* CellHeightChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHeightChangeController.h; sourceTree = "<group>"; };
+		5A99FA3D1EB878D00068B48E /* CellHeightChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHeightChangeController.m; sourceTree = "<group>"; };
 		5AA735EE1E52F59400B8CB4C /* MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
 		5AA735EF1E52F59400B8CB4C /* MaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
 		5AA735F11E52FE5700B8CB4C /* ButtonShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonShowView.h; sourceTree = "<group>"; };
@@ -787,6 +806,7 @@
 		5A3972491E499FB90096A27F /* UI-Component(UI组件) */ = {
 			isa = PBXGroup;
 			children = (
+				5A406CC21EC09E2600008EE9 /* RotateView */,
 				5A39743F1E49B0FC0096A27F /* NSString+Category */,
 				5A39743B1E49B0480096A27F /* StringRangeManager */,
 				5A3974341E49AFE70096A27F /* UIImage+Category */,
@@ -1533,6 +1553,18 @@
 			name = HexColor;
 			sourceTree = "<group>";
 		};
+		5A406CC21EC09E2600008EE9 /* RotateView */ = {
+			isa = PBXGroup;
+			children = (
+				5A406CC31EC09E4F00008EE9 /* RotateAnimationProtocol.h */,
+				5A406CC41EC09E4F00008EE9 /* RotateView.h */,
+				5A406CC51EC09E4F00008EE9 /* RotateView.m */,
+				5A406CC61EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.h */,
+				5A406CC71EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m */,
+			);
+			name = RotateView;
+			sourceTree = "<group>";
+		};
 		5A49988F1E5590B600A140ED /* LongPressButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -1607,8 +1639,16 @@
 		5A99FA371EB1A67A0068B48E /* CellDynamicHeight */ = {
 			isa = PBXGroup;
 			children = (
-				5A99FA3C1EB878D00068B48E /* CellHeightChangeControllerViewController.h */,
-				5A99FA3D1EB878D00068B48E /* CellHeightChangeControllerViewController.m */,
+				5A99FA3C1EB878D00068B48E /* CellHeightChangeController.h */,
+				5A99FA3D1EB878D00068B48E /* CellHeightChangeController.m */,
+				5A406CB61EC09DB000008EE9 /* ClassHeaderView.h */,
+				5A406CB71EC09DB000008EE9 /* ClassHeaderView.m */,
+				5A406CB81EC09DB000008EE9 /* ClassModel.h */,
+				5A406CB91EC09DB000008EE9 /* ClassModel.m */,
+				5A406CBA1EC09DB000008EE9 /* StudentInfoCell.h */,
+				5A406CBB1EC09DB000008EE9 /* StudentInfoCell.m */,
+				5A406CBC1EC09DB000008EE9 /* StudentModel.h */,
+				5A406CBD1EC09DB000008EE9 /* StudentModel.m */,
 			);
 			name = CellDynamicHeight;
 			sourceTree = "<group>";
@@ -1937,7 +1977,7 @@
 				5A3972771E49A15B0096A27F /* GCDTimer.m in Sources */,
 				5A3972DD1E49A1980096A27F /* POPLayerExtras.mm in Sources */,
 				5A64EE701E55EF07001A8890 /* UIView+Glow.m in Sources */,
-				5A99FA3E1EB878D00068B48E /* CellHeightChangeControllerViewController.m in Sources */,
+				5A99FA3E1EB878D00068B48E /* CellHeightChangeController.m in Sources */,
 				5AF4B0491E5198ED004CF90D /* LXCircleAnimationView.m in Sources */,
 				5A39735E1E49A41C0096A27F /* AFSecurityPolicy.m in Sources */,
 				5A3973C81E49A8950096A27F /* TableViewSectionItem.m in Sources */,
@@ -1982,6 +2022,7 @@
 				5A13E2401EA9BF0600BEA28B /* averagePriceLayer.m in Sources */,
 				5A3972DC1E49A1980096A27F /* POPGeometry.mm in Sources */,
 				5A39737D1E49A4290096A27F /* UIProgressView+AFNetworking.m in Sources */,
+				5A406CC91EC09E4F00008EE9 /* UIView+RotateAnimationProtocol.m in Sources */,
 				5A3973F11E49AE2D0096A27F /* IndexRange.m in Sources */,
 				5A3973B01E49A8240096A27F /* FullTitleVisualEffectViewController.m in Sources */,
 				5AE51D0F1EB963D600231F2C /* FireViewController.m in Sources */,
@@ -2000,6 +2041,7 @@
 				5AA735F31E52FE5700B8CB4C /* ButtonShowView.m in Sources */,
 				5A3972391E499F560096A27F /* ViewController.m in Sources */,
 				5A3973971E49A7E00096A27F /* UIFont+Fonts.m in Sources */,
+				5A406CBF1EC09DB000008EE9 /* ClassModel.m in Sources */,
 				5A3974471E49B1050096A27F /* NSAttributedString+LabelWidthAndHeight.m in Sources */,
 				5A39730A1E49A1A40096A27F /* SDWebImageDownloader.m in Sources */,
 				5A3972D51E49A1980096A27F /* POPAnimationRuntime.mm in Sources */,
@@ -2027,6 +2069,7 @@
 				5A3973E51E49ACA90096A27F /* LineBackgroundView.m in Sources */,
 				5ACFDD571E4C580900E563BA /* barChartController.m in Sources */,
 				5A3972941E49A18E0096A27F /* NodeModelRootNavigationController.m in Sources */,
+				5A406CC01EC09DB000008EE9 /* StudentInfoCell.m in Sources */,
 				5AC991AE1E4B059C008B52AC /* FlowLightLabelController.m in Sources */,
 				5A3972DB1E49A1980096A27F /* POPDecayAnimation.mm in Sources */,
 				5A3973AF1E49A8240096A27F /* FullTitleViewController.m in Sources */,
@@ -2039,6 +2082,7 @@
 				5A3972DA1E49A1980096A27F /* POPCustomAnimation.mm in Sources */,
 				5AF4B0401E51966D004CF90D /* SinglePercentController.m in Sources */,
 				5A3972D71E49A1980096A27F /* POPAnimator.mm in Sources */,
+				5A406CC11EC09DB000008EE9 /* StudentModel.m in Sources */,
 				5A3972671E49A12F0096A27F /* WxHxD.m in Sources */,
 				5A3973141E49A1A40096A27F /* UIView+WebCacheOperation.m in Sources */,
 				5A3973871E49A4C90096A27F /* NumberFormatter.m in Sources */,
@@ -2057,6 +2101,7 @@
 				5A39730F1E49A1A40096A27F /* UIImage+GIF.m in Sources */,
 				5A3974031E49AE8C0096A27F /* ControllerPopAnimator.m in Sources */,
 				5AC991A71E4AC967008B52AC /* CALayer+Anim.m in Sources */,
+				5A406CBE1EC09DB000008EE9 /* ClassHeaderView.m in Sources */,
 				5A3973AB1E49A8240096A27F /* CustomNavigationController.m in Sources */,
 				5A3972951E49A18E0096A27F /* NodeModelStrings.m in Sources */,
 				5A39735D1E49A41C0096A27F /* AFNetworkReachabilityManager.m in Sources */,
@@ -2111,6 +2156,7 @@
 				5A7119CE1E4D565A00D48FA5 /* CircleChartController.m in Sources */,
 				5A39734B1E49A3580096A27F /* UIView+AnimationPracticalMethod.m in Sources */,
 				5A3973271E49A1B10096A27F /* ForegroundColorAttribute.m in Sources */,
+				5A406CC81EC09E4F00008EE9 /* RotateView.m in Sources */,
 				5A3973901E49A7AE0096A27F /* AnimationsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,8 +6,10 @@
 //  Copyright © 2017年 刘成利. All rights reserved.
 //
 
-#import "FullTitleVisualEffectViewController.h"
+#import "NormalTitleViewController.h"
 
-@interface CellHeightChangeControllerViewController : FullTitleVisualEffectViewController
+
+@interface CellHeightChangeController : NormalTitleViewController 
+
 
 @end

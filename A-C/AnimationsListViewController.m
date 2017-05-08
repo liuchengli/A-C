@@ -39,6 +39,7 @@
 #import "MaskViewController.h"
 #import "LongPressButtonController.h"
 #import "ViewInsidePopController.h"
+#import "CellHeightChangeController.h"
 
 /* 金融图表 */
 #import "FormController.h"
@@ -242,7 +243,8 @@
                        [Item itemWithName:@"弹窗" object:[AlertController class]],
                        [Item itemWithName:@"蒙版引导" object:[MaskViewController class]],
                        [Item itemWithName:@"长按拖拽" object:[LongPressButtonController class]],
-                       [Item itemWithName:@"view内缩弹窗" object:[ViewInsidePopController class]]
+                       [Item itemWithName:@"view内缩弹窗" object:[ViewInsidePopController class]],
+                       [Item itemWithName:@"tableView折叠" object:[CellHeightChangeController class]]
                        
                        ];
     
