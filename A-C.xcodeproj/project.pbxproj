@@ -194,6 +194,8 @@
 		5A406D261EC1673800008EE9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A406D141EC1673800008EE9 /* 5.jpg */; };
 		5A406D271EC1673800008EE9 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A406D151EC1673800008EE9 /* 6.jpg */; };
 		5A406D281EC1673800008EE9 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A406D161EC1673800008EE9 /* 7.jpg */; };
+		5A406D2C1EC1A1D600008EE9 /* CardSeletedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406D2B1EC1A1D600008EE9 /* CardSeletedController.m */; };
+		5A406D2F1EC1A2F700008EE9 /* CardSeletedCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A406D2E1EC1A2F700008EE9 /* CardSeletedCollectionView.m */; };
 		5A4998921E5590F600A140ED /* LongPressButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998911E5590F600A140ED /* LongPressButtonViewController.m */; };
 		5A4998951E5590FE00A140ED /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998941E5590FE00A140ED /* PressAnimationButton.m */; };
 		5A49989A1E55988400A140ED /* LoginButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4998991E55988400A140ED /* LoginButtonController.m */; };
@@ -626,6 +628,10 @@
 		5A406D141EC1673800008EE9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		5A406D151EC1673800008EE9 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		5A406D161EC1673800008EE9 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		5A406D2A1EC1A1D600008EE9 /* CardSeletedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSeletedController.h; sourceTree = "<group>"; };
+		5A406D2B1EC1A1D600008EE9 /* CardSeletedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSeletedController.m; sourceTree = "<group>"; };
+		5A406D2D1EC1A2F700008EE9 /* CardSeletedCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSeletedCollectionView.h; sourceTree = "<group>"; };
+		5A406D2E1EC1A2F700008EE9 /* CardSeletedCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSeletedCollectionView.m; sourceTree = "<group>"; };
 		5A4998901E5590F600A140ED /* LongPressButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressButtonViewController.h; sourceTree = "<group>"; };
 		5A4998911E5590F600A140ED /* LongPressButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressButtonViewController.m; sourceTree = "<group>"; };
 		5A4998931E5590FE00A140ED /* PressAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressAnimationButton.h; sourceTree = "<group>"; };
@@ -909,6 +915,7 @@
 		5A39724D1E499FFA0096A27F /* AnimationControllers(动画控制器) */ = {
 			isa = PBXGroup;
 			children = (
+				5A406D291EC19AC900008EE9 /* CardSelected */,
 				5A406CCA1EC0A91D00008EE9 /* TextGradualChange */,
 				5A99FA411EB8CB5F0068B48E /* PagePoint */,
 				5A99FA401EB8CB4D0068B48E /* Fire */,
@@ -1671,6 +1678,17 @@
 			path = img_jpg;
 			sourceTree = "<group>";
 		};
+		5A406D291EC19AC900008EE9 /* CardSelected */ = {
+			isa = PBXGroup;
+			children = (
+				5A406D2A1EC1A1D600008EE9 /* CardSeletedController.h */,
+				5A406D2B1EC1A1D600008EE9 /* CardSeletedController.m */,
+				5A406D2D1EC1A2F700008EE9 /* CardSeletedCollectionView.h */,
+				5A406D2E1EC1A2F700008EE9 /* CardSeletedCollectionView.m */,
+			);
+			name = CardSelected;
+			sourceTree = "<group>";
+		};
 		5A49988F1E5590B600A140ED /* LongPressButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -2175,6 +2193,7 @@
 				5A3974471E49B1050096A27F /* NSAttributedString+LabelWidthAndHeight.m in Sources */,
 				5A39730A1E49A1A40096A27F /* SDWebImageDownloader.m in Sources */,
 				5A3972D51E49A1980096A27F /* POPAnimationRuntime.mm in Sources */,
+				5A406D2F1EC1A2F700008EE9 /* CardSeletedCollectionView.m in Sources */,
 				5A3973331E49A1F00096A27F /* NSString+Base64.m in Sources */,
 				5A3972601E49A1210096A27F /* LoadMaskHelper.m in Sources */,
 				5A39729B1E49A18E0096A27F /* PropertyInfomation.m in Sources */,
@@ -2196,6 +2215,7 @@
 				5A13E22C1EA9BEB000BEA28B /* KLineViewController.m in Sources */,
 				5A39735F1E49A41C0096A27F /* AFURLRequestSerialization.m in Sources */,
 				5A4998921E5590F600A140ED /* LongPressButtonViewController.m in Sources */,
+				5A406D2C1EC1A1D600008EE9 /* CardSeletedController.m in Sources */,
 				5A3973E51E49ACA90096A27F /* LineBackgroundView.m in Sources */,
 				5ACFDD571E4C580900E563BA /* barChartController.m in Sources */,
 				5A3972941E49A18E0096A27F /* NodeModelRootNavigationController.m in Sources */,

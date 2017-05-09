@@ -40,6 +40,7 @@
 #import "MaskViewController.h"
 #import "LongPressButtonController.h"
 #import "ViewInsidePopController.h"
+#import "CardSeletedController.h"
 #import "CellHeightChangeController.h"
 #import "CellDynamicRollController.h"
 
@@ -247,6 +248,7 @@
                        [Item itemWithName:@"蒙版引导" object:[MaskViewController class]],
                        [Item itemWithName:@"长按拖拽" object:[LongPressButtonController class]],
                        [Item itemWithName:@"view内缩弹窗" object:[ViewInsidePopController class]],
+                       [Item itemWithName:@"卡牌选择" object:[CardSeletedController class]],
                        [Item itemWithName:@"tableView展开折叠" object:[CellHeightChangeController class]],
                        [Item itemWithName:@"tableView内容滚动" object:[CellDynamicRollController class]]
                        
