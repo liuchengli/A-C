@@ -11,7 +11,7 @@
 #define kWidth [UIScreen mainScreen].bounds.size.width
 #define kHeight [UIScreen mainScreen].bounds.size.height
 
-#define cellHeight 250
+#define cellHeight 280
 
 @implementation RollCell
 

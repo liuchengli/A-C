@@ -52,7 +52,7 @@
     _tableView.delegate       = self;
     _tableView.dataSource     = self;
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    _tableView.rowHeight      = 250;
+    _tableView.rowHeight      = 280;
     [self.contentView addSubview:_tableView];
     
     [_tableView registerClass:[RollCell class] forCellReuseIdentifier:cellID];
