@@ -55,8 +55,8 @@
     
     UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
     UIVisualEffectView *bluredEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
-    [bluredEffectView setFrame:CGRectMake(120,30,150, 40)];
-    bluredEffectView.layer.cornerRadius = 15;
+    [bluredEffectView setFrame:CGRectMake(self.contentView.width/2-75,30,150, 40)];
+    bluredEffectView.layer.cornerRadius = 10;
     bluredEffectView.layer.masksToBounds = YES;
     [self.contentView addSubview:bluredEffectView];
     
@@ -149,6 +149,30 @@
 
     
     
+    }
+
+    
+    {
+        
+        UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+        UIVisualEffectView *bluredEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+        [bluredEffectView setFrame:CGRectMake(self.contentView.width/2-75,self.contentView.height-60,150, 40)];
+        bluredEffectView.layer.cornerRadius = 10;
+        bluredEffectView.layer.masksToBounds = YES;
+        [self.contentView addSubview:bluredEffectView];
+        
+        UIVibrancyEffect *vibrancyEffect = [UIVibrancyEffect effectForBlurEffect:blurEffect];
+        UIVisualEffectView *vibrancyEffectView = [[UIVisualEffectView alloc] initWithEffect:vibrancyEffect];
+        [vibrancyEffectView setFrame:bluredEffectView.bounds];
+        [bluredEffectView.contentView addSubview:vibrancyEffectView];
+        
+        UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,150, 40)];
+        label.text = @"Liu Cheng Li";
+        label.textAlignment = NSTextAlignmentCenter;
+        label.textColor = [UIColor blackColor];
+        [label setTextColor:[UIColor blackColor]];
+        [vibrancyEffectView.contentView addSubview:label];
+        
     }
 
 
