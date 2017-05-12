@@ -51,7 +51,28 @@
 //       // 移除所有子视图
 //       [self.contentView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     
+    {
+    
+    UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
+    UIVisualEffectView *bluredEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+    [bluredEffectView setFrame:CGRectMake(120,30,150, 40)];
+    bluredEffectView.layer.cornerRadius = 15;
+    bluredEffectView.layer.masksToBounds = YES;
+    [self.contentView addSubview:bluredEffectView];
+    
+    UIVibrancyEffect *vibrancyEffect = [UIVibrancyEffect effectForBlurEffect:blurEffect];
+    UIVisualEffectView *vibrancyEffectView = [[UIVisualEffectView alloc] initWithEffect:vibrancyEffect];
+    [vibrancyEffectView setFrame:bluredEffectView.bounds];
+    [bluredEffectView.contentView addSubview:vibrancyEffectView];
+    
+    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,150, 40)];
+    label.text = @"登陆/注册";
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor blackColor];
+    [label setTextColor:[UIColor blackColor]];
+    [vibrancyEffectView.contentView addSubview:label];
    
+    }
     
         //  创建需要的毛玻璃特效类型
     
