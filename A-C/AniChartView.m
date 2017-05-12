@@ -7,6 +7,7 @@
 //
 
 #import "AniChartView.h"
+#import "DrawLine.h"
 //#import "POP.h"
 @interface AniChartView ()
 
@@ -24,6 +25,8 @@
     {
         self.shapeLayerArray  = [NSMutableArray array];
  
+        [DrawLine drawDashLine:self xValue:0 lineLength:3.f lineSpacing:1 lineColor:[UIColor grayColor]];
+        [DrawLine drawDashLine:self yValue:frame.size.height lineLength:3.f lineSpacing:1 lineColor:[UIColor grayColor]];
         
     }
     return self;
@@ -106,11 +109,6 @@
     
 
 }
-
-
-//- (void)drawRect:(CGRect)rect {
-//    // Drawing code
-//}
 
 
 @end

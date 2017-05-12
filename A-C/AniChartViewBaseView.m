@@ -7,6 +7,8 @@
 //
 
 #import "AniChartViewBaseView.h"
+#import "DrawLine.h"
+
 @interface AniChartViewBaseView ()
 
 @property (nonatomic, strong) NSMutableArray  *shapeLayerArray;  // 存储每条柱
@@ -33,14 +35,18 @@
           [UIColor colorWithRed:58/255.0 green:223/255.0 blue:210/255.0 alpha:1],
           [UIColor colorWithRed:32/255.0 green:172/255.0 blue:255.0/255.0 alpha:1],
           [UIColor colorWithRed:39/255.0 green:92/255.0 blue:170/255.0 alpha:1],
-                             [UIColor colorWithRed:141/255.0 green:132/255.0 blue:240/255.0 alpha:1],[UIColor colorWithRed:223/255.0 green:73/255.0 blue:53/255.0 alpha:1],
-                             [UIColor colorWithRed:243/255.0 green:143/255.0 blue:43/255.0 alpha:1],
-                             [UIColor colorWithRed:235/255.0 green:218/255.0 blue:89/255.0 alpha:1],
-                             [UIColor colorWithRed:115/255.0 green:216/255.0 blue:75/255.0 alpha:1],
-                             [UIColor colorWithRed:58/255.0 green:223/255.0 blue:210/255.0 alpha:1],
-                             [UIColor colorWithRed:32/255.0 green:172/255.0 blue:255.0/255.0 alpha:1],
-                             [UIColor colorWithRed:39/255.0 green:92/255.0 blue:170/255.0 alpha:1],
-                             [UIColor colorWithRed:141/255.0 green:132/255.0 blue:240/255.0 alpha:1]];
+          [UIColor colorWithRed:141/255.0 green:132/255.0 blue:240/255.0 alpha:1],
+          [UIColor colorWithRed:223/255.0 green:73/255.0 blue:53/255.0 alpha:1],
+          [UIColor colorWithRed:243/255.0 green:143/255.0 blue:43/255.0 alpha:1],
+          [UIColor colorWithRed:235/255.0 green:218/255.0 blue:89/255.0 alpha:1],
+          [UIColor colorWithRed:115/255.0 green:216/255.0 blue:75/255.0 alpha:1],
+          [UIColor colorWithRed:58/255.0 green:223/255.0 blue:210/255.0 alpha:1],
+          [UIColor colorWithRed:32/255.0 green:172/255.0 blue:255.0/255.0 alpha:1],
+          [UIColor colorWithRed:39/255.0 green:92/255.0 blue:170/255.0 alpha:1],
+          [UIColor colorWithRed:141/255.0 green:132/255.0 blue:240/255.0 alpha:1]];
+        
+        [DrawLine drawSolidLine:self xValue:0 lineLength:1.f lineColor:[UIColor grayColor]];
+        [DrawLine drawSolidLine:self yValue:frame.size.height lineLength:1.f lineColor:[UIColor grayColor]];
         
     }
     return self;
