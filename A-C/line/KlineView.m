@@ -3,7 +3,7 @@
 //  kline
 //
 //  Created by 刘成利 on 2016/9/21.
-//  Copyright © 2017年 刘成利. All rights reserved.
+//  Copyright © 2016年 刘成利. All rights reserved.
 //
 
 #import "KlineView.h"

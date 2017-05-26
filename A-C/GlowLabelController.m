@@ -89,7 +89,7 @@
         // 开始辉光
         [name startGlowingWithColor:[UIColor cyanColor]      intensity:1.0f];
         [letters startGlowingWithColor:[UIColor magentaColor] intensity:1.0f];
-    
+     
     
     
     

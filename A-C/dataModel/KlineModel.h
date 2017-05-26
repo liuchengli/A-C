@@ -3,7 +3,7 @@
 //  kline
 //
 //  Created by 刘成利 on 2016/9/10.
-//  Copyright © 2017年 刘成利. All rights reserved.
+//  Copyright © 2016年 刘成利. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
